@@ -1,0 +1,10 @@
+[ Fri Mar 21 12:23:18 2025 ] 	Epoch: 6667 dev done. Conv wer: 18.5976  ins:1.4228, del:7.6220
+[ Fri Mar 21 12:23:18 2025 ] 	Epoch: 6667 dev done. LSTM wer: 17.1748  ins:1.0163, del:6.6057
+[ Fri Mar 21 12:39:52 2025 ] 	Epoch: 6667 dev done. Conv wer: 18.5976  ins:1.4228, del:7.6220
+[ Fri Mar 21 12:39:52 2025 ] 	Epoch: 6667 dev done. LSTM wer: 17.1748  ins:1.0163, del:6.6057
+[ Fri Mar 21 12:53:09 2025 ] 	Epoch: 6667 dev done. Conv wer: 18.5976  ins:1.4228, del:7.6220
+[ Fri Mar 21 12:53:09 2025 ] 	Epoch: 6667 dev done. LSTM wer: 17.1748  ins:1.0163, del:6.6057
+[ Fri Mar 21 16:16:00 2025 ] 	Epoch: 6667 dev done. Conv wer: 18.1752  ins:2.0416, del:7.1183
+[ Fri Mar 21 16:16:00 2025 ] 	Epoch: 6667 dev done. LSTM wer: 17.1274  ins:2.1680, del:5.9801
+[ Fri Mar 21 17:53:14 2025 ] 	Epoch: 6667 dev done. Conv wer: 18.5976  ins:1.4228, del:7.6220
+[ Fri Mar 21 17:53:14 2025 ] 	Epoch: 6667 dev done. LSTM wer: 17.1748  ins:1.0163, del:6.6057

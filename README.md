@@ -43,7 +43,7 @@ We make some imporvments of our code, and provide newest checkpoionts and better
 
 
 ​To evaluate the pretrained model, choose the dataset from phoenix2014/phoenix2014-T/CSL/CSL-Daily in line 3 in ./config/baseline.yaml first, and run the command below：   
-`python main.py --device your_device --load-weights path_to_weight.pt --phase test`
+`python main.py --device your_device --load-weights /home/jhy/SignGraph/_best_model.pt --phase test`
 
 ### Training
 

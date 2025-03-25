@@ -1,2 +1,5 @@
 *.pkl
 /weight
+*.pt
+_best_model.pt
+phoenix2014-release/ 

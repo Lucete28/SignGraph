@@ -61,9 +61,11 @@ def seq_train(loader, model, optimizer, device, epoch_idx, recoder):
     return
 
 
+import csv 
+from jiwer import wer as jiwer_wer
 def seq_eval(cfg, loader, model, device, mode, epoch, work_dir, recoder, evaluate_tool="python"):
     model.eval()
-    results=defaultdict(dict)
+    results = defaultdict(dict)
 
     for batch_idx, data in enumerate(tqdm(loader)):
         recoder.record_timer("device")
@@ -79,20 +81,106 @@ def seq_eval(cfg, loader, model, device, mode, epoch, work_dir, recoder, evaluat
                 results[inf]['conv_sents'] = conv_sents
                 results[inf]['recognized_sents'] = recognized_sents
                 results[inf]['gloss'] = gl
+
     gls_hyp = [' '.join(results[n]['conv_sents']) for n in results]
     gls_ref = [results[n]['gloss'] for n in results]
     wer_results_con = wer_list(hypotheses=gls_hyp, references=gls_ref)
+
     gls_hyp = [' '.join(results[n]['recognized_sents']) for n in results]
     wer_results = wer_list(hypotheses=gls_hyp, references=gls_ref)
-    if wer_results['wer'] < wer_results_con['wer']:
-        reg_per = wer_results
-    else:
-        reg_per = wer_results_con
+
+    reg_per = wer_results if wer_results['wer'] < wer_results_con['wer'] else wer_results_con
+
     recoder.print_log('\tEpoch: {} {} done. Conv wer: {:.4f}  ins:{:.4f}, del:{:.4f}'.format(
         epoch, mode, wer_results_con['wer'], wer_results_con['ins'], wer_results_con['del']),
         f"{work_dir}/{mode}.txt")
-    recoder.print_log('\tEpoch: {} {} done. LSTM wer: {:.4f}  ins:{:.4f}, del:{:.4f}'.format(
-        epoch, mode, wer_results['wer'], wer_results['ins'], wer_results['del']), f"{work_dir}/{mode}.txt")
 
-    return {"wer":reg_per['wer'], "ins":reg_per['ins'], 'del':reg_per['del']}
- 
+    recoder.print_log('\tEpoch: {} {} done. LSTM wer: {:.4f}  ins:{:.4f}, del:{:.4f}'.format(
+        epoch, mode, wer_results['wer'], wer_results['ins'], wer_results['del']),
+        f"{work_dir}/{mode}.txt")
+
+    # ✅ 전체 결과 CSV로 저장
+    save_folder = os.path.join(work_dir, f"{mode}_detailed_results")
+    os.makedirs(save_folder, exist_ok=True)
+    csv_path = os.path.join(save_folder, "wer_results.csv")
+
+    rows = []
+    for file_id in results:
+        gt = results[file_id]['gloss']
+        conv_pred = ' '.join(results[file_id]['conv_sents'])
+        lstm_pred = ' '.join(results[file_id]['recognized_sents'])
+        conv_wer = jiwer_wer(gt, conv_pred)
+        lstm_wer = jiwer_wer(gt, lstm_pred)
+
+        rows.append([
+            file_id,
+            gt,
+            conv_pred,
+            f"{conv_wer:.4f}",
+            lstm_pred,
+            f"{lstm_wer:.4f}"
+        ])
+
+    with open(csv_path, mode='w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['file_id', 'gt', 'conv_pred', 'conv_wer', 'lstm_pred', 'lstm_wer'])
+        writer.writerows(rows)
+
+    print(f"\n✅ 전체 결과가 다음 경로에 저장되었습니다:\n{csv_path}\n")
+
+
+
+    # WER 기준 상위 5개 샘플 출력
+    sample_wers = []
+    for file_id in results:
+        gt = results[file_id]['gloss']
+        conv_pred = ' '.join(results[file_id]['conv_sents'])
+        lstm_pred = ' '.join(results[file_id]['recognized_sents'])
+    
+        conv_wer = jiwer_wer(gt, conv_pred)
+        lstm_wer = jiwer_wer(gt, lstm_pred)
+    
+        sample_wers.append({
+            'file_id': file_id,
+            'gt': gt,
+            'conv_pred': conv_pred,
+            'conv_wer': conv_wer,
+            'lstm_pred': lstm_pred,
+            'lstm_wer': lstm_wer,
+            'max_wer': max(conv_wer, lstm_wer)
+        })
+
+    top5 = sorted(sample_wers, key=lambda x: x['max_wer'], reverse=True)[:5]
+    
+    print("\n📢 WER 상위 5개 샘플 (Conv vs LSTM):\n")
+    for sample in top5:
+        print(f"[{sample['file_id']}] WER (Conv: {sample['conv_wer']:.4f}, LSTM: {sample['lstm_wer']:.4f})")
+        print(f"GT   : {sample['gt']}")
+        print(f"Conv : {sample['conv_pred']}")
+        print(f"LSTM : {sample['lstm_pred']}")
+        print("-" * 60)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return {"wer": reg_per['wer'], "ins": reg_per['ins'], 'del': reg_per['del']}
