@@ -151,7 +151,14 @@ def seq_eval(cfg, loader, model, device, mode, epoch, work_dir, recoder, evaluat
         })
 
     top5 = sorted(sample_wers, key=lambda x: x['max_wer'], reverse=True)[:5]
-    
+    # 전체 샘플 WER 평균 계산
+    avg_conv_wer = 100 * np.mean([sample['conv_wer'] for sample in sample_wers])
+    avg_lstm_wer = 100 * np.mean([sample['lstm_wer'] for sample in sample_wers])
+
+    print("\n📊 전체 평균 WER")
+    print(f"- Conv 방식 평균 WER: {avg_conv_wer:.2f}%")
+    print(f"- LSTM 방식 평균 WER: {avg_lstm_wer:.2f}%")
+
     print("\n📢 WER 상위 5개 샘플 (Conv vs LSTM):\n")
     for sample in top5:
         print(f"[{sample['file_id']}] WER (Conv: {sample['conv_wer']:.4f}, LSTM: {sample['lstm_wer']:.4f})")

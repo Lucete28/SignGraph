@@ -4,10 +4,10 @@ dataset: phoenix2014
 dataset_info:
   dataset_root: /phoenix2014-release/phoenix-2014-multisigner
   dict_path: ./preprocess/phoenix2014/gloss_dict.npy
-  evaluation_dir: ./evaluation/slr_eval
+  evaluation_dir: ./evaluation/slr_eval645
   evaluation_prefix: phoenix2014-groundtruth
 decode_mode: beam
-device: your_device
+device: cuda
 dist_url: env://
 eval_interval: 1
 evaluate_tool: python

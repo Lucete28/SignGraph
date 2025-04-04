@@ -89,10 +89,8 @@ class SLRModel(nn.Module):
         x = conv1d_outputs['visual_feat']
         lgt = conv1d_outputs['feat_len'].cpu()
         tm_outputs = self.temporal_model(x, lgt)
-        print(tm_outputs['predictions'].shape) #'predictions', 'hidden'
-        print(tm_outputs['hidden'].shape) #'predictions', 'hidden'
-
-        print('#######################################################')
+        # print(tm_outputs['predictions'].shape) #'predictions', 'hidden'
+        # print('#######################################################')
         outputs = self.classifier(tm_outputs['predictions'])
         pred = None if self.training \
             else self.decoder.decode(outputs, lgt, batch_first=False, probs=False)

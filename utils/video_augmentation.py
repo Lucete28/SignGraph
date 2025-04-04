@@ -304,7 +304,7 @@ class RandomRotation(object):
             raise TypeError('Expected numpy.ndarray or PIL.Image' +
                             'but got list of {0}'.format(type(clip[0])))
         return rotated
-
+import time
 
 class TemporalRescale(object):
     def __init__(self, temp_scaling=0.2, frame_interval=1):
@@ -326,6 +326,8 @@ class TemporalRescale(object):
             index = sorted(random.sample(range(vid_len), new_len))
         else:
             index = sorted(random.choices(range(vid_len), k=new_len))
+        # print(f"[TemporalRescale] 입력 길이: {vid_len}, 출력 길이: {new_len}")
+        # time.sleep(2)
         return clip[index]
 
 

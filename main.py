@@ -21,6 +21,7 @@ import utils
 from seq_scripts import seq_train, seq_eval
 from torch.cuda.amp import autocast as autocast
 from utils.misc import *
+from utils.decode import analyze_frame_lengths
 class Processor():
     def __init__(self, arg):
         self.arg = arg
@@ -105,19 +106,33 @@ class Processor():
                 print('Please appoint --weights.')
             self.recoder.print_log('Model:   {}.'.format(self.arg.model))
             self.recoder.print_log('Weights: {}.'.format(self.arg.load_weights))
-            train_wer = seq_eval(self.arg, self.data_loader["train_eval"], self.model, self.device,
-                                 "train", 6667, self.arg.work_dir, self.recoder, self.arg.evaluate_tool)
-            dev_wer = seq_eval(self.arg, self.data_loader["dev"], self.model, self.device,
-                               "dev", 6667, self.arg.work_dir, self.recoder, self.arg.evaluate_tool)
-            test_wer = seq_eval(self.arg, self.data_loader["test"], self.model, self.device,
-                                "test", 6667, self.arg.work_dir, self.recoder, self.arg.evaluate_tool)
+
+            train_wer = seq_eval(
+                self.arg, self.data_loader["train_eval"], self.model, self.device,
+                "train", 6667, self.arg.work_dir, self.recoder, self.arg.evaluate_tool
+            )
+            dev_wer = seq_eval(
+                self.arg, self.data_loader["dev"], self.model, self.device,
+                "dev", 6667, self.arg.work_dir, self.recoder, self.arg.evaluate_tool
+            )
+            test_wer = seq_eval(
+                self.arg, self.data_loader["test"], self.model, self.device,
+                "test", 6667, self.arg.work_dir, self.recoder, self.arg.evaluate_tool
+            )
+
             self.recoder.print_log('Evaluation Done.\n')
+
+            # ✅ 프레임 길이 분석 추가 (기존 코드 변경 없이 추가만!)
+            analyze_frame_lengths()
+
         elif self.arg.phase == "features":
             for mode in ["train", "dev", "test"]:
                 seq_feature_generation(
                     self.data_loader[mode + "_eval" if mode == "train" else mode],
                     self.model, self.device, mode, self.arg.work_dir, self.recoder
                 )
+
+
 
     def save_arg(self):
         arg_dict = vars(self.arg)
@@ -225,12 +240,14 @@ class Processor():
         print("Loading Dataprocessing")
         self.feeder = import_class(self.arg.feeder)
         shutil.copy2(inspect.getfile(self.feeder), self.arg.work_dir)
+
         if self.arg.dataset == 'CSL':
             dataset_list = zip(["train", "dev"], [True, False])
         elif 'phoenix' in self.arg.dataset:
             dataset_list = zip(["train", "train_eval", "dev", "test"], [True, False, False, False]) 
         elif self.arg.dataset == 'CSL-Daily':
             dataset_list = zip(["train", "train_eval", "dev", "test"], [True, False, False, False])
+
         for idx, (mode, train_flag) in enumerate(dataset_list):
             arg = self.arg.feeder_args
             arg["prefix"] = self.arg.dataset_info['dataset_root']
@@ -239,6 +256,7 @@ class Processor():
             self.dataset[mode] = self.feeder(gloss_dict=self.gloss_dict, kernel_size= self.kernel_sizes, dataset=self.arg.dataset, **arg)
             self.data_loader[mode] = self.build_dataloader(self.dataset[mode], mode, train_flag)
         print("Loading Dataprocessing finished.")
+        # time.sleep(10)
     def init_fn(self, worker_id):
         np.random.seed(int(self.arg.random_seed)+worker_id)
 
@@ -247,7 +265,7 @@ class Processor():
         if len(self.device.gpu_list) > 1:
             if train_flag:
                 sampler = torch.utils.data.distributed.DistributedSampler(dataset, shuffle=train_flag)
-            else:
+            else: # test flag
                 sampler = torch.utils.data.SequentialSampler(dataset)
             batch_size = self.arg.batch_size if mode == "train" else self.arg.test_batch_size
             loader = torch.utils.data.DataLoader(

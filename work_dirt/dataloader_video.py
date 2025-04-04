@@ -9,6 +9,7 @@ import torch
 import random
 import pandas
 import warnings
+import time
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -74,7 +75,8 @@ class BaseFeeder(data.Dataset):
 
             self.prefix = os.path.expanduser("~/SignGraph/phoenix2014-release/phoenix-2014-multisigner")
             img_folder = os.path.join(self.prefix, "features", "fullFrame-210x260px", fi['folder'])
-
+            # print('phoenix 데이터를 사용함')
+            # print(img_folder)
 #            print(f"len img_folder:{len(img_folder)}, type: {type(img_folder)}")
 #            print(img_folder)
 #            img_list = sorted(glob.glob(img_folder))
@@ -113,6 +115,12 @@ class BaseFeeder(data.Dataset):
     def read_features(self, index):
         # load file info
         fi = self.inputs_list[index]
+        print('111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111')
+        print('111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111')
+        print(f"./features/{self.mode}/{fi['fileid']}_features.npy")
+        print('111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111')
+        print('111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111')
+        time.sleep(10)
         data = np.load(f"./features/{self.mode}/{fi['fileid']}_features.npy", allow_pickle=True).item()
         return data['features'], data['label']
 
@@ -220,7 +228,7 @@ if __name__ == "__main__":
         dataset=feeder,
         batch_size=1,
         shuffle=True,
-        drop_last=True,
+        drop_last=False,
         num_workers=0,
     )
     for data in dataloader:
