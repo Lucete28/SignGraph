@@ -38,3 +38,17 @@
 [ Fri Apr  4 14:17:46 2025 ] 	Epoch: 6667 test done. LSTM wer: 18.1430  ins:1.7076, del:5.0160
 [ Fri Apr  4 14:26:43 2025 ] 	Epoch: 6667 test done. Conv wer: 18.4632  ins:1.4941, del:6.2967
 [ Fri Apr  4 14:26:43 2025 ] 	Epoch: 6667 test done. LSTM wer: 18.1430  ins:1.7076, del:5.0160
+[ Fri Apr  4 15:12:14 2025 ] 	Epoch: 6667 test done. Conv wer: 18.4632  ins:1.4941, del:6.2967
+[ Fri Apr  4 15:12:14 2025 ] 	Epoch: 6667 test done. LSTM wer: 18.1430  ins:1.7076, del:5.0160
+[ Fri Apr  4 16:01:28 2025 ] 	Epoch: 6667 test done. Conv wer: 18.4632  ins:1.4941, del:6.2967
+[ Fri Apr  4 16:01:28 2025 ] 	Epoch: 6667 test done. LSTM wer: 18.1430  ins:1.7076, del:5.0160
+[ Fri Apr  4 18:19:51 2025 ] 	Epoch: 6667 test done. Conv wer: 18.8511  ins:2.0946, del:6.8689
+[ Fri Apr  4 18:19:51 2025 ] 	Epoch: 6667 test done. LSTM wer: 18.1734  ins:2.2332, del:5.6522
+[ Sun Apr  6 14:24:19 2025 ] 	Epoch: 6667 test done. Conv wer: 18.4632  ins:1.4941, del:6.2967
+[ Sun Apr  6 14:24:20 2025 ] 	Epoch: 6667 test done. LSTM wer: 18.1430  ins:1.7076, del:5.0160
+[ Sun Apr  6 21:21:29 2025 ] 	Epoch: 6667 test done. Conv wer: 18.4632  ins:1.4941, del:6.2967
+[ Sun Apr  6 21:21:29 2025 ] 	Epoch: 6667 test done. LSTM wer: 18.1430  ins:1.7076, del:5.0160
+[ Mon Apr  7 10:22:08 2025 ] 	Epoch: 6667 test done. Conv wer: 12.0482  ins:1.2048, del:2.4096
+[ Mon Apr  7 10:22:08 2025 ] 	Epoch: 6667 test done. LSTM wer: 13.2530  ins:1.2048, del:2.4096
+[ Mon Apr  7 10:24:08 2025 ] 	Epoch: 6667 test done. Conv wer: 12.0482  ins:1.2048, del:2.4096
+[ Mon Apr  7 10:24:08 2025 ] 	Epoch: 6667 test done. LSTM wer: 13.2530  ins:1.2048, del:2.4096

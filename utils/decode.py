@@ -57,6 +57,8 @@ class Decode(object):
         # ⬇ 프레임 길이 수집
         global frame_lengths
         for i in range(vid_lgt.size(0)):
+            print('##########################################################################################')
+            print(f"[VID_LGT] Used input length in decoding: {vid_lgt[i].item()}")
             frame_lengths.append(int(vid_lgt[i].item()))
 
         # sample_id가 존재하면 시각화

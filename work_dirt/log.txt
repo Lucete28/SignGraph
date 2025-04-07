@@ -196,3 +196,39 @@
 [ Fri Apr  4 14:25:06 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
 [ Fri Apr  4 14:26:43 2025 ] Evaluation Done.
 
+[ Fri Apr  4 15:10:36 2025 ] Model:   slr_network.SLRModel.
+[ Fri Apr  4 15:10:36 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Fri Apr  4 15:12:14 2025 ] Evaluation Done.
+
+[ Fri Apr  4 15:25:54 2025 ] Model:   slr_network.SLRModel.
+[ Fri Apr  4 15:25:54 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Fri Apr  4 15:59:48 2025 ] Model:   slr_network.SLRModel.
+[ Fri Apr  4 15:59:48 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Fri Apr  4 16:01:28 2025 ] Evaluation Done.
+
+[ Fri Apr  4 16:46:47 2025 ] Model:   slr_network.SLRModel.
+[ Fri Apr  4 16:46:47 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Fri Apr  4 18:19:52 2025 ] Evaluation Done.
+
+[ Sun Apr  6 14:21:33 2025 ] Model:   slr_network.SLRModel.
+[ Sun Apr  6 14:21:33 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Sun Apr  6 14:22:41 2025 ] Model:   slr_network.SLRModel.
+[ Sun Apr  6 14:22:41 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Sun Apr  6 14:24:20 2025 ] Evaluation Done.
+
+[ Sun Apr  6 21:19:47 2025 ] Model:   slr_network.SLRModel.
+[ Sun Apr  6 21:19:47 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Sun Apr  6 21:21:29 2025 ] Evaluation Done.
+
+[ Mon Apr  7 10:12:43 2025 ] Model:   slr_network.SLRModel.
+[ Mon Apr  7 10:12:43 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Mon Apr  7 10:17:59 2025 ] Model:   slr_network.SLRModel.
+[ Mon Apr  7 10:17:59 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Mon Apr  7 10:21:56 2025 ] Model:   slr_network.SLRModel.
+[ Mon Apr  7 10:21:56 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Mon Apr  7 10:22:08 2025 ] Evaluation Done.
+
+[ Mon Apr  7 10:23:54 2025 ] Model:   slr_network.SLRModel.
+[ Mon Apr  7 10:23:54 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
+[ Mon Apr  7 10:24:08 2025 ] Evaluation Done.
+

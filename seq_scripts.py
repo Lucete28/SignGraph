@@ -125,6 +125,7 @@ def seq_eval(cfg, loader, model, device, mode, epoch, work_dir, recoder, evaluat
         writer = csv.writer(f)
         writer.writerow(['file_id', 'gt', 'conv_pred', 'conv_wer', 'lstm_pred', 'lstm_wer'])
         writer.writerows(rows)
+    print(len(rows))
 
     print(f"\n✅ 전체 결과가 다음 경로에 저장되었습니다:\n{csv_path}\n")
 

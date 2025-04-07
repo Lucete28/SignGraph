@@ -43,7 +43,7 @@ class BaseFeeder(data.Dataset):
         self.transform_mode = "train" if transform_mode else "test"
         #self.inputs_list = np.load(f"./preprocess/{dataset}/{mode}_info.npy", allow_pickle=True).item()
         full_inputs_dict = np.load(f"./preprocess/{dataset}/{mode}_info.npy", allow_pickle=True).item()
-        self.inputs_list = dict(list(full_inputs_dict.items())[:100]) #select length
+        self.inputs_list = dict(list(full_inputs_dict.items())[:10]) #select length
 
         print(mode, len(self))
         self.data_aug = self.transform()
@@ -86,7 +86,17 @@ class BaseFeeder(data.Dataset):
             img_folder = os.path.join(self.prefix, "sentence", "frames_512x512", fi['folder'])
     
         img_list = sorted(glob.glob(img_folder))
-    
+
+        # ✅ 여기에 경로 출력 추가
+        # print(f"\n[READ_VIDEO] Mode: {self.mode}")
+        # print(f"[READ_VIDEO] Folder path: {img_folder}")
+        # print(f"[READ_VIDEO] Found {len(img_list)} frames")
+        if len(img_list) > 0:
+            for i, frame_path in enumerate(img_list[:5]):
+                print(f"  Frame {i+1}: {frame_path}")
+            if len(img_list) > 5:
+                print("  ...")
+        
         if len(img_list) == 0:
             print(f"[WARNING] No frames found in: {img_list}")
     
@@ -109,7 +119,8 @@ class BaseFeeder(data.Dataset):
             )   
             for img_path in img_list
         ]
-    
+        print(f"[FRAME COUNT] raw frame count: {len(img_list)}")
+
         return video, label_list, fi
 
     def read_features(self, index):
@@ -162,7 +173,7 @@ class BaseFeeder(data.Dataset):
     def collate_fn(batch):
         batch = [item for item in sorted(batch, key=lambda x: len(x[0]), reverse=True)]
         video, label, info = list(zip(*batch))
-        
+
         left_pad = 0
         last_stride = 1
         total_stride = 1
@@ -174,18 +185,31 @@ class BaseFeeder(data.Dataset):
             elif ks[0] == 'P':
                 last_stride = int(ks[1])
                 total_stride = total_stride * last_stride
+
         if len(video[0].shape) > 3:
-            max_len = len(video[0])
-            video_length = torch.LongTensor([np.ceil(len(vid) / total_stride) * total_stride + 2*left_pad for vid in video])
+            original_len = len(video[0])
+            max_len = original_len
+            video_length = torch.LongTensor([
+                int(np.ceil(len(vid) / total_stride) * total_stride + 2 * left_pad)
+                for vid in video
+            ])
             right_pad = int(np.ceil(max_len / total_stride)) * total_stride - max_len + left_pad
-            max_len = max_len + left_pad + right_pad
+            final_padded_len = max_len + left_pad + right_pad
+
+            # ✅ 디버깅 정보 출력
+            print(f"[DEBUG] Original video length: {original_len}")
+            print(f"[DEBUG] Left padding: {left_pad}")
+            print(f"[DEBUG] Right padding: {right_pad}")
+            print(f"[DEBUG] Final padded video length: {final_padded_len}")
+            print(f"[DEBUG] Final tensor shape: {[len(video)]} x {final_padded_len} x C x H x W")
+            print(f"[PADDED] from {len(video[0])} to {final_padded_len} (left {left_pad}, right {right_pad})")
+
             padded_video = [torch.cat(
                 (
                     vid[0][None].expand(left_pad, -1, -1, -1),
                     vid,
-                    vid[-1][None].expand(max_len - len(vid) - left_pad, -1, -1, -1),
-                )
-                , dim=0)
+                    vid[-1][None].expand(final_padded_len - len(vid) - left_pad, -1, -1, -1),
+                ), dim=0)
                 for vid in video]
             padded_video = torch.stack(padded_video)
         else:
@@ -199,6 +223,7 @@ class BaseFeeder(data.Dataset):
                 , dim=0)
                 for vid in video]
             padded_video = torch.stack(padded_video).permute(0, 2, 1)
+
         label_length = torch.LongTensor([len(lab) for lab in label])
         if max(label_length) == 0:
             return padded_video, video_length, [], [], info
@@ -208,6 +233,7 @@ class BaseFeeder(data.Dataset):
                 padded_label.extend(lab)
             padded_label = torch.LongTensor(padded_label)
             return padded_video, video_length, padded_label, label_length, info
+
 
     def __len__(self):
         return len(self.inputs_list) - 1

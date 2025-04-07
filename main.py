@@ -60,6 +60,7 @@ class Processor():
             total_time = 0
             epoch_time = 0
             if is_main_process():
+                print("This is main process")
                 self.recoder.print_log('Parameters:\n{}\n'.format(str(vars(self.arg))))
             seq_model_list = []
             for epoch in range(self.arg.optimizer_args['start_epoch'], self.arg.optimizer_args['num_epoch']):
@@ -314,9 +315,11 @@ if __name__ == '__main__':
                 assert (k in key)
         sparser.set_defaults(**default_arg)
     args = sparser.parse_args()
+    print(args) # Namespace(work_dir='./work_dirt/', config='./configs/baseline.yaml', random_fix=True, device='cuda', phase='test', save_interval=10, random_seed=0, eval_interval=1, print_log=True, log_interval=10000, evaluate_tool='python', feeder='dataset.dataloader_video.BaseFeeder', dataset='phoenix2014', dataset_info={}, num_worker=3, feeder_args={'mode': 'train', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224}, model='slr_network.SLRModel', model_args={'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, load_weights='/home/jhy/SignGraph/_best_model.pt', load_checkpoints=False, decode_mode='beam', ignore_weights=[], batch_size=1, test_batch_size=1, loss_weights={'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0}, optimizer_args={'optimizer': 'Adam', 'learning_rate': {'base_lr': 0.0001}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, num_epoch=80, world_size=1, local_rank=0, dist_url='env://')
     with open(f"./configs/{args.dataset}.yaml", 'r') as f:
         args.dataset_info = yaml.load(f, Loader=yaml.FullLoader)
+        print(args.dataset_info) # {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}
     processor = Processor(args)
-    utils.pack_code("./", args.work_dir)
+    # utils.pack_code("./", args.work_dir)
     processor.start()
  
