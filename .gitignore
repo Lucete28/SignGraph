@@ -3,3 +3,8 @@
 *.pt
 _best_model.pt
 phoenix2014-release/ 
+work_dirt/
+
+probsEda/
+probsEda lstm 명시 전/
+eda/

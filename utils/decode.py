@@ -11,33 +11,32 @@ import matplotlib.pyplot as plt
 # ⬇ 프레임 길이 저장용 전역 리스트
 frame_lengths = []
 
-def plot_timewise_predictions(nn_output, gloss_dict, vid_lgt, batch_idx=0, blank_id=0, sample_id=None):
-    i2g_dict = dict((v[0], k) for k, v in gloss_dict.items())
-    probs = torch.softmax(nn_output, dim=-1)
-    pred_ids = torch.argmax(probs, dim=-1)
+def save_timewise_probabilities(nn_output, gloss_dict, vid_lgt, batch_idx=0, sample_id=None, save_path=None):
+    # 확률로 변환 (softmax)
+    probs = torch.softmax(nn_output, dim=-1)  # (B, T, C)
 
+    # 사용할 샘플 길이
     length = int(vid_lgt[batch_idx].item())
-    pred_seq = pred_ids[batch_idx, :length].cpu().numpy()
-    x = np.arange(length)
+    probs = probs[batch_idx, :length].cpu().numpy()  # (T, C)
 
-    plt.figure(figsize=(15, 4))
-    plt.plot(x, pred_seq, drawstyle='steps-post', label='Predicted Gloss ID', linewidth=1.5)
+    # 클래스 이름 매핑
+    i2g_dict = dict((v[0], k) for k, v in gloss_dict.items())
+    gloss_names = [i2g_dict.get(i, str(i)) for i in range(probs.shape[1])]
 
-    blank_indices = np.where(pred_seq == blank_id)[0]
-    if len(blank_indices) > 0:
-        plt.scatter(blank_indices, pred_seq[blank_indices], color='red', marker='x', label='CTC Blank (0)', zorder=5)
+    # 로그 출력 (원하면 CSV 저장도 가능)
+    # print(f"\n[Probabilities] Sample ID: {sample_id}, Length: {length}")
+    # print("Frame\t" + "\t".join(gloss_names))
+    for t in range(length):
+        values = "\t".join([f"{p:.3f}" for p in probs[t]])
+        # print(f"{t}\t{values}")
 
-    title_str = "Predicted Gloss ID over Time (CTC Blank Highlighted)"
-    if sample_id:
-        title_str += f"\nSample: {sample_id}"
-    plt.title(title_str)
-    plt.xlabel("Time Step")
-    plt.ylabel("Gloss ID")
-    plt.yticks(np.unique(pred_seq))
-    plt.grid(True)
-    plt.legend()
-    plt.tight_layout()
-    plt.show()
+    if save_path:
+        import pandas as pd
+        df = pd.DataFrame(probs, columns=gloss_names)
+        df.insert(0, "frame", np.arange(length))
+        df.to_csv(save_path, index=False)
+        print(f"✅ 저장 완료: {save_path}")
+
 
 
 class Decode(object):
@@ -50,20 +49,23 @@ class Decode(object):
         vocab = [chr(x) for x in range(20000, 20000 + num_classes)]
         self.ctc_decoder = ctcdecode.CTCBeamDecoder(vocab, beam_width=beam_width, blank_id=blank_id, num_processes=10)
 
-    def decode(self, nn_output, vid_lgt, batch_first=True, probs=False, sample_ids=None):
+    def decode(self, nn_output, vid_lgt, batch_first=True, probs=False, sample_ids=None, save_name_prefix=None):
+
         if not batch_first:
             nn_output = nn_output.permute(1, 0, 2)
 
         # ⬇ 프레임 길이 수집
         global frame_lengths
         for i in range(vid_lgt.size(0)):
-            print('##########################################################################################')
-            print(f"[VID_LGT] Used input length in decoding: {vid_lgt[i].item()}")
+            # print('##########################################################################################')
+            # print(f"[VID_LGT] Used input length in decoding: {vid_lgt[i].item()}")
             frame_lengths.append(int(vid_lgt[i].item()))
 
-        # sample_id가 존재하면 시각화
+        # 프레임별 확률 저장 
         sample_id = sample_ids[0] if sample_ids else None
-        # plot_timewise_predictions(nn_output, self.i2g_dict, vid_lgt, batch_idx=0, sample_id=sample_id)
+        if save_name_prefix == "lstm" and sample_id and int(sample_id.split('-')[-1])<5:
+            save_timewise_probabilities(nn_output, self.i2g_dict, vid_lgt, batch_idx=0, sample_id=sample_id, save_path=f"/home/jhy/SignGraph/probsEda/probs_{sample_id}.csv")
+            1==1
 
         if self.search_mode == "max":
             return self.MaxDecode(nn_output, vid_lgt)
@@ -85,10 +87,15 @@ class Decode(object):
 
     def MaxDecode(self, nn_output, vid_lgt):
         index_list = torch.argmax(nn_output, axis=2)
-        batchsize, lgt = index_list.shape
+        batchsize = nn_output.size(0)
+        # print(f"[DEBUG] nn_output shape: {nn_output.shape}")  # ex: [1, T, num_classes]
+        # print(f"[DEBUG] vid_lgt: {vid_lgt}")  # Tensor([length])
+        # print(f"[DEBUG] batch size according to nn_output: {nn_output.size(0)}")
+
         ret_list = []
-        for batch_idx in range(batchsize):
-            group_result = [x[0] for x in groupby(index_list[batch_idx][:vid_lgt[batch_idx]])]
+        for batch_idx in range(batchsize):  # ← 여기가 중요
+            length = int(vid_lgt[batch_idx])
+            group_result = [x[0] for x in groupby(index_list[batch_idx][:length])]
             filtered = [x for x in group_result if x != self.blank_id]
             if len(filtered) > 0:
                 max_result = torch.stack(filtered)
@@ -97,6 +104,7 @@ class Decode(object):
                 max_result = filtered
             ret_list.append([(self.i2g_dict[int(gloss_id)], idx) for idx, gloss_id in enumerate(max_result)])
         return ret_list
+
 
 
 # ✅ 테스트 루프 끝에서 프레임 길이 분석 (예: seq_eval() 마지막에)

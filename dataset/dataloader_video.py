@@ -43,7 +43,7 @@ class BaseFeeder(data.Dataset):
         self.transform_mode = "train" if transform_mode else "test"
         #self.inputs_list = np.load(f"./preprocess/{dataset}/{mode}_info.npy", allow_pickle=True).item()
         full_inputs_dict = np.load(f"./preprocess/{dataset}/{mode}_info.npy", allow_pickle=True).item()
-        self.inputs_list = dict(list(full_inputs_dict.items())[:10]) #select length
+        self.inputs_list = dict(list(full_inputs_dict.items())[:]) #select length
 
         print(mode, len(self))
         self.data_aug = self.transform()
@@ -91,11 +91,13 @@ class BaseFeeder(data.Dataset):
         # print(f"\n[READ_VIDEO] Mode: {self.mode}")
         # print(f"[READ_VIDEO] Folder path: {img_folder}")
         # print(f"[READ_VIDEO] Found {len(img_list)} frames")
-        if len(img_list) > 0:
-            for i, frame_path in enumerate(img_list[:5]):
-                print(f"  Frame {i+1}: {frame_path}")
-            if len(img_list) > 5:
-                print("  ...")
+
+
+        # if len(img_list) > 0:
+        #     for i, frame_path in enumerate(img_list[:5]):
+        #         print(f"  Frame {i+1}: {frame_path}")
+        #     if len(img_list) > 5:
+        #         print("  ...")
         
         if len(img_list) == 0:
             print(f"[WARNING] No frames found in: {img_list}")
@@ -119,7 +121,7 @@ class BaseFeeder(data.Dataset):
             )   
             for img_path in img_list
         ]
-        print(f"[FRAME COUNT] raw frame count: {len(img_list)}")
+        # print(f"[FRAME COUNT] raw frame count: {len(img_list)}")
 
         return video, label_list, fi
 
@@ -171,68 +173,70 @@ class BaseFeeder(data.Dataset):
 
     @staticmethod
     def collate_fn(batch):
-        batch = [item for item in sorted(batch, key=lambda x: len(x[0]), reverse=True)]
-        video, label, info = list(zip(*batch))
+        # 길이 기준 정렬 (긴 영상 먼저)
+        batch = sorted(batch, key=lambda x: len(x[0]), reverse=True)
+        videos, labels, infos = zip(*batch)
 
+        global kernel_sizes
         left_pad = 0
         last_stride = 1
         total_stride = 1
-        global kernel_sizes 
-        for layer_2idx, ks in enumerate(kernel_sizes):
+
+        for ks in kernel_sizes:
             if ks[0] == 'K':
-                left_pad = left_pad * last_stride 
-                left_pad += int((int(ks[1])-1)/2)
+                left_pad = left_pad * last_stride
+                left_pad += int((int(ks[1]) - 1) / 2)
             elif ks[0] == 'P':
                 last_stride = int(ks[1])
-                total_stride = total_stride * last_stride
+                total_stride *= last_stride
 
-        if len(video[0].shape) > 3:
-            original_len = len(video[0])
-            max_len = original_len
-            video_length = torch.LongTensor([
-                int(np.ceil(len(vid) / total_stride) * total_stride + 2 * left_pad)
-                for vid in video
+        if len(videos[0].shape) > 3:  # [T, C, H, W]
+            original_lens = [len(vid) for vid in videos]
+            max_len = max(original_lens)
+            video_lengths = torch.LongTensor([
+                int(np.ceil(l / total_stride) * total_stride + 2 * left_pad)
+                for l in original_lens
             ])
             right_pad = int(np.ceil(max_len / total_stride)) * total_stride - max_len + left_pad
-            final_padded_len = max_len + left_pad + right_pad
+            final_len = max_len + left_pad + right_pad
 
-            # ✅ 디버깅 정보 출력
-            print(f"[DEBUG] Original video length: {original_len}")
-            print(f"[DEBUG] Left padding: {left_pad}")
-            print(f"[DEBUG] Right padding: {right_pad}")
-            print(f"[DEBUG] Final padded video length: {final_padded_len}")
-            print(f"[DEBUG] Final tensor shape: {[len(video)]} x {final_padded_len} x C x H x W")
-            print(f"[PADDED] from {len(video[0])} to {final_padded_len} (left {left_pad}, right {right_pad})")
-
-            padded_video = [torch.cat(
-                (
-                    vid[0][None].expand(left_pad, -1, -1, -1),
+            padded_videos = []
+            for vid in videos:
+                padded = torch.cat([
+                    vid[0].unsqueeze(0).expand(left_pad, -1, -1, -1),
                     vid,
-                    vid[-1][None].expand(final_padded_len - len(vid) - left_pad, -1, -1, -1),
-                ), dim=0)
-                for vid in video]
-            padded_video = torch.stack(padded_video)
-        else:
-            max_len = len(video[0])
-            video_length = torch.LongTensor([len(vid) for vid in video])
-            padded_video = [torch.cat(
-                (
-                    vid,
-                    vid[-1][None].expand(max_len - len(vid), -1),
-                )
-                , dim=0)
-                for vid in video]
-            padded_video = torch.stack(padded_video).permute(0, 2, 1)
+                    vid[-1].unsqueeze(0).expand(final_len - len(vid) - left_pad, -1, -1, -1)
+                ], dim=0)
+                padded_videos.append(padded)
 
-        label_length = torch.LongTensor([len(lab) for lab in label])
-        if max(label_length) == 0:
-            return padded_video, video_length, [], [], info
+            padded_videos = torch.stack(padded_videos)  # [B, T, C, H, W]
+        else:  # [T, C]
+            original_lens = [len(vid) for vid in videos]
+            max_len = max(original_lens)
+            video_lengths = torch.LongTensor(original_lens)
+            padded_videos = []
+            for vid in videos:
+                pad_len = max_len - len(vid)
+                padded = torch.cat([vid, vid[-1].unsqueeze(0).expand(pad_len, -1)], dim=0)
+                padded_videos.append(padded)
+            padded_videos = torch.stack(padded_videos).permute(0, 2, 1)  # [B, C, T]
+
+        # 라벨 padding
+        label_lengths = torch.LongTensor([len(lab) for lab in labels])
+
+        # CTCLoss를 위한 라벨은 1D로 concat된 상태여야 함
+        if label_lengths.max() == 0:
+            empty_label = torch.LongTensor([])
         else:
-            padded_label = []
-            for lab in label:
-                padded_label.extend(lab)
-            padded_label = torch.LongTensor(padded_label)
-            return padded_video, video_length, padded_label, label_length, info
+            empty_label = torch.cat([torch.LongTensor(lab) for lab in labels], dim=0)
+
+        # 디버깅 로그
+        if video_lengths.shape[0] != len(batch):
+            print(f"⚠️ Warning: video_lengths({video_lengths.shape[0]}) != batch({len(batch)})")
+
+        return padded_videos, video_lengths, empty_label, label_lengths, infos
+
+
 
 
     def __len__(self):
@@ -247,6 +251,21 @@ class BaseFeeder(data.Dataset):
         self.record_time()
         return split_time
 
+# class WordLevelGlossDataset(Dataset):
+#     def __init__(self, annotation_list, image_root, transform):
+#         self.samples = annotation_list
+#         self.image_root = image_root
+#         self.transform = transform
+
+#     def __getitem__(self, idx):
+#         ann = self.samples[idx]
+#         folder = os.path.join(self.image_root, ann["sequence"], "1")
+#         frame_paths = sorted(glob.glob(f"{folder}/*.png"))[ann["start"]:ann["end"]+1]
+
+#         frames = [self.transform(Image.open(p).convert("RGB")) for p in frame_paths]
+#         video_tensor = torch.stack(frames)  # [T, C, H, W]
+
+#         return video_tensor, ann["gloss_id"]
 
 if __name__ == "__main__":
     feeder = BaseFeeder()

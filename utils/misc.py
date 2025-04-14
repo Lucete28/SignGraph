@@ -327,6 +327,7 @@ def save_on_master(*args, **kwargs):
 
 
 def init_distributed_mode(args):
+    
     if 'RANK' in os.environ and 'WORLD_SIZE' in os.environ:
         args.rank = int(os.environ["RANK"])
         args.world_size = int(os.environ['WORLD_SIZE'])
@@ -343,6 +344,8 @@ def init_distributed_mode(args):
         return
 
     torch.cuda.set_device(args.gpu)
+    args.device = args.gpu  # ✅ 이 한 줄을 추가하세요!
+
     args.dist_backend = 'nccl'
     print('| distributed init (rank {}): {}, gpu {}'.format(
         args.rank, args.dist_url, args.gpu), flush=True)

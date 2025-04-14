@@ -1,234 +1,837 @@
-[ Fri Mar 21 09:40:20 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 09:40:20 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 09:46:23 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 09:46:23 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 09:50:04 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 09:50:04 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 09:55:53 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 09:55:53 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 10:06:09 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 10:06:09 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 10:21:49 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 10:21:49 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 10:22:32 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 10:22:32 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 10:26:37 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 10:26:37 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 10:35:09 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 10:35:09 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 10:36:31 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 10:36:31 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 10:38:33 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 10:38:33 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 10:45:34 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 10:45:34 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 10:47:45 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 10:47:45 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 10:56:28 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 10:56:28 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:13:16 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:13:16 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:21:02 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:21:02 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:21:50 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:21:50 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:22:34 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:22:34 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:25:32 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:25:32 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:27:16 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:27:16 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:31:18 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:31:18 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:34:29 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:34:29 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:35:51 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:35:51 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:37:58 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:37:58 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:39:11 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:39:11 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:43:45 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:43:45 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:45:25 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:45:25 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:47:22 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:47:22 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:49:48 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:49:48 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:51:44 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:51:44 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:53:36 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:53:36 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:54:41 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:54:41 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:57:59 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:57:59 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 11:59:24 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 11:59:24 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:00:21 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:00:21 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:00:41 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:00:41 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:01:59 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:01:59 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:03:03 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:03:03 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:03:38 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:03:38 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:05:37 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:05:37 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:06:42 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:06:42 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:09:48 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:09:48 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:11:21 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:11:21 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:12:24 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:12:24 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:13:20 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:13:20 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:22:05 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:22:05 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:23:57 2025 ] Evaluation Done.
+[ Thu Apr 10 15:49:53 2025 ] Model:   slr_network.SLRModel.
+[ Thu Apr 10 15:49:53 2025 ] Weights: /home/jhy/SignGraph/phoenix_base_best_model.pt.
+[ Thu Apr 10 15:51:03 2025 ] Model:   slr_network.SLRModel.
+[ Thu Apr 10 15:51:03 2025 ] Weights: /home/jhy/SignGraph/phoenix_base_best_model.pt.
+[ Thu Apr 10 15:52:42 2025 ] Evaluation Done.
 
-[ Fri Mar 21 12:38:32 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:38:32 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:40:23 2025 ] Evaluation Done.
+[ Thu Apr 10 16:02:05 2025 ] Model:   slr_network.SLRModel.
+[ Thu Apr 10 16:02:05 2025 ] Weights: /home/jhy/SignGraph/phoenix_base_best_model.pt.
+[ Thu Apr 10 16:04:02 2025 ] Evaluation Done.
 
-[ Fri Mar 21 12:50:37 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:50:37 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:52:06 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 12:52:06 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 12:53:40 2025 ] Evaluation Done.
+[ Thu Apr 10 21:06:39 2025 ] Model:   slr_network.SLRModel.
+[ Thu Apr 10 21:06:39 2025 ] Weights: /home/jhy/SignGraph/phoenix_base_best_model.pt.
+[ Fri Apr 11 19:00:54 2025 ] Model:   slr_network.SLRModel.
+[ Fri Apr 11 19:00:54 2025 ] Weights: /home/jhy/SignGraph/phoenix_base_best_model.pt.
+[ Fri Apr 11 19:08:31 2025 ] Model:   slr_network.SLRModel.
+[ Fri Apr 11 19:08:31 2025 ] Weights: /home/jhy/SignGraph/phoenix_base_best_model.pt.
+[ Fri Apr 11 19:08:53 2025 ] Model:   slr_network.SLRModel.
+[ Fri Apr 11 19:08:53 2025 ] Weights: /home/jhy/SignGraph/phoenix_base_best_model.pt.
+[ Sun Apr 13 15:23:58 2025 ] Model:   slr_network.SLRModel.
+[ Sun Apr 13 15:23:58 2025 ] Weights: /home/jhy/SignGraph/phoenix_base_best_model.pt.
+[ Sun Apr 13 16:07:59 2025 ] Evaluation Done.
 
-[ Fri Mar 21 15:44:25 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 15:44:25 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 16:19:12 2025 ] Evaluation Done.
+[ Sun Apr 13 20:34:15 2025 ] Model:   slr_network.SLRModel.
+[ Sun Apr 13 20:34:15 2025 ] Weights: /home/jhy/SignGraph/phoenix_base_best_model.pt.
+[ Sun Apr 13 21:12:46 2025 ] Evaluation Done.
 
-[ Fri Mar 21 17:52:09 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 21 17:52:09 2025 ] Weights: _best_model.pt.
-[ Fri Mar 21 17:53:45 2025 ] Evaluation Done.
+[ Sun Apr 13 22:16:59 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Tue Mar 25 12:58:19 2025 ] Model:   slr_network.SLRModel.
-[ Tue Mar 25 12:58:19 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Tue Mar 25 13:02:30 2025 ] Model:   slr_network.SLRModel.
-[ Tue Mar 25 13:02:30 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Tue Mar 25 13:03:47 2025 ] Model:   slr_network.SLRModel.
-[ Tue Mar 25 13:03:47 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Fri Mar 28 11:11:19 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 28 11:11:19 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Fri Mar 28 11:12:07 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 28 11:12:07 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Fri Mar 28 11:13:27 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 28 11:13:27 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Fri Mar 28 15:07:54 2025 ] Model:   slr_network.SLRModel.
-[ Fri Mar 28 15:07:54 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Tue Apr  1 15:59:59 2025 ] Model:   slr_network.SLRModel.
-[ Tue Apr  1 15:59:59 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Tue Apr  1 16:02:57 2025 ] Model:   slr_network.SLRModel.
-[ Tue Apr  1 16:02:57 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Tue Apr  1 16:09:18 2025 ] Model:   slr_network.SLRModel.
-[ Tue Apr  1 16:09:18 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Wed Apr  2 14:07:30 2025 ] Model:   slr_network.SLRModel.
-[ Wed Apr  2 14:07:30 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Wed Apr  2 14:09:09 2025 ] Evaluation Done.
+[ Sun Apr 13 22:18:09 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Wed Apr  2 14:43:01 2025 ] Model:   slr_network.SLRModel.
-[ Wed Apr  2 14:43:01 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Wed Apr  2 14:44:41 2025 ] Evaluation Done.
+[ Sun Apr 13 22:18:54 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Wed Apr  2 15:42:48 2025 ] Model:   slr_network.SLRModel.
-[ Wed Apr  2 15:42:48 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Wed Apr  2 15:44:26 2025 ] Evaluation Done.
+[ Sun Apr 13 22:21:56 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Wed Apr  2 16:06:33 2025 ] Model:   slr_network.SLRModel.
-[ Wed Apr  2 16:06:33 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Wed Apr  2 16:08:12 2025 ] Evaluation Done.
+[ Sun Apr 13 22:22:00 2025 ] 	Epoch: 0, Batch(0/2835) done. Loss: 461.13104248  lr:0.000100
+[ Sun Apr 13 22:34:03 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Wed Apr  2 16:48:54 2025 ] Model:   slr_network.SLRModel.
-[ Wed Apr  2 16:48:54 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Wed Apr  2 16:50:35 2025 ] Evaluation Done.
+[ Sun Apr 13 22:36:47 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Wed Apr  2 16:51:18 2025 ] Model:   slr_network.SLRModel.
-[ Wed Apr  2 16:51:18 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Wed Apr  2 16:52:57 2025 ] Evaluation Done.
+[ Sun Apr 13 22:37:07 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Wed Apr  2 16:53:54 2025 ] Model:   slr_network.SLRModel.
-[ Wed Apr  2 16:53:54 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Wed Apr  2 17:45:32 2025 ] Model:   slr_network.SLRModel.
-[ Wed Apr  2 17:45:32 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Wed Apr  2 17:45:53 2025 ] Model:   slr_network.SLRModel.
-[ Wed Apr  2 17:45:53 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Wed Apr  2 17:47:30 2025 ] Evaluation Done.
+[ Sun Apr 13 22:38:33 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Thu Apr  3 11:58:08 2025 ] Model:   slr_network.SLRModel.
-[ Thu Apr  3 11:58:08 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Thu Apr  3 11:59:51 2025 ] Evaluation Done.
+[ Sun Apr 13 22:40:24 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Thu Apr  3 13:19:21 2025 ] Model:   slr_network.SLRModel.
-[ Thu Apr  3 13:19:21 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Thu Apr  3 13:21:06 2025 ] Evaluation Done.
+[ Sun Apr 13 22:42:06 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Thu Apr  3 13:45:08 2025 ] Model:   slr_network.SLRModel.
-[ Thu Apr  3 13:45:08 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Thu Apr  3 13:46:47 2025 ] Evaluation Done.
+[ Sun Apr 13 22:43:30 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Thu Apr  3 13:48:29 2025 ] Model:   slr_network.SLRModel.
-[ Thu Apr  3 13:48:29 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Thu Apr  3 13:50:07 2025 ] Evaluation Done.
+[ Sun Apr 13 22:45:07 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Thu Apr  3 13:52:37 2025 ] Model:   slr_network.SLRModel.
-[ Thu Apr  3 13:52:37 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Thu Apr  3 13:54:15 2025 ] Evaluation Done.
+[ Sun Apr 13 22:52:11 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Thu Apr  3 16:23:52 2025 ] Model:   slr_network.SLRModel.
-[ Thu Apr  3 16:23:52 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Thu Apr  3 16:24:51 2025 ] Model:   slr_network.SLRModel.
-[ Thu Apr  3 16:24:51 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Thu Apr  3 16:26:30 2025 ] Evaluation Done.
+[ Sun Apr 13 22:53:59 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Fri Apr  4 14:16:07 2025 ] Model:   slr_network.SLRModel.
-[ Fri Apr  4 14:16:07 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Fri Apr  4 14:17:46 2025 ] Evaluation Done.
+[ Mon Apr 14 00:25:29 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Fri Apr  4 14:25:06 2025 ] Model:   slr_network.SLRModel.
-[ Fri Apr  4 14:25:06 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Fri Apr  4 14:26:43 2025 ] Evaluation Done.
+[ Mon Apr 14 00:25:34 2025 ] 	Epoch: 0, Batch(0/2835) done. Loss: 461.13415527  lr:0.000100
+[ Mon Apr 14 00:30:48 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Fri Apr  4 15:10:36 2025 ] Model:   slr_network.SLRModel.
-[ Fri Apr  4 15:10:36 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Fri Apr  4 15:12:14 2025 ] Evaluation Done.
+[ Mon Apr 14 10:46:32 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 1, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Fri Apr  4 15:25:54 2025 ] Model:   slr_network.SLRModel.
-[ Fri Apr  4 15:25:54 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Fri Apr  4 15:59:48 2025 ] Model:   slr_network.SLRModel.
-[ Fri Apr  4 15:59:48 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Fri Apr  4 16:01:28 2025 ] Evaluation Done.
+[ Mon Apr 14 10:47:56 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Fri Apr  4 16:46:47 2025 ] Model:   slr_network.SLRModel.
-[ Fri Apr  4 16:46:47 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Fri Apr  4 18:19:52 2025 ] Evaluation Done.
+[ Mon Apr 14 10:48:23 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 3, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Sun Apr  6 14:21:33 2025 ] Model:   slr_network.SLRModel.
-[ Sun Apr  6 14:21:33 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Sun Apr  6 14:22:41 2025 ] Model:   slr_network.SLRModel.
-[ Sun Apr  6 14:22:41 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Sun Apr  6 14:24:20 2025 ] Evaluation Done.
+[ Mon Apr 14 10:48:52 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 4, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Sun Apr  6 21:19:47 2025 ] Model:   slr_network.SLRModel.
-[ Sun Apr  6 21:19:47 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Sun Apr  6 21:21:29 2025 ] Evaluation Done.
+[ Mon Apr 14 10:49:40 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 4, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Mon Apr  7 10:12:43 2025 ] Model:   slr_network.SLRModel.
-[ Mon Apr  7 10:12:43 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Mon Apr  7 10:17:59 2025 ] Model:   slr_network.SLRModel.
-[ Mon Apr  7 10:17:59 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Mon Apr  7 10:21:56 2025 ] Model:   slr_network.SLRModel.
-[ Mon Apr  7 10:21:56 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Mon Apr  7 10:22:08 2025 ] Evaluation Done.
+[ Mon Apr 14 10:50:11 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
 
-[ Mon Apr  7 10:23:54 2025 ] Model:   slr_network.SLRModel.
-[ Mon Apr  7 10:23:54 2025 ] Weights: /home/jhy/SignGraph/_best_model.pt.
-[ Mon Apr  7 10:24:08 2025 ] Evaluation Done.
+[ Mon Apr 14 10:57:19 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
 
+[ Mon Apr 14 11:00:13 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 11:00:43 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 1, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 11:04:39 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 1, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 11:05:01 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 11:07:21 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 11:10:52 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 11:12:28 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 11:14:14 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 11:15:43 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0,1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 11:22:02 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 11:22:06 2025 ] 	Epoch: 0, Batch(0/2835) done. Loss: 461.13253784  lr:0.000100
+[ Mon Apr 14 11:23:52 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
+
+[ Mon Apr 14 11:23:56 2025 ] 	Epoch: 0, Batch(0/2835) done. Loss: 461.12689209  lr:0.000100
+[ Mon Apr 14 11:24:33 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
+
+[ Mon Apr 14 11:24:39 2025 ] 	Epoch: 0, Batch(0/2) done. Loss: 773.24011230  lr:0.000100
+[ Mon Apr 14 11:24:58 2025 ] 	Mean training loss: 816.6635437012.
+[ Mon Apr 14 11:25:04 2025 ] Dev WER: 172.73% DEV del 00.00% DEV ins 72.73%
+[ Mon Apr 14 11:25:04 2025 ] Test WER: 223.81% Test del 00.00% Test ins 123.81%
+[ Mon Apr 14 11:25:04 2025 ] Save best model
+[ Mon Apr 14 11:25:04 2025 ] Best_dev: 172.73, 00.00, 72.73, Best_test: 223.81, 00.00, 123.81,Epoch : 0
+[ Mon Apr 14 11:25:04 2025 ] Epoch 0 costs 0 mins 31 seconds
+[ Mon Apr 14 11:25:04 2025 ] Training costs 0 hours 0 mins 31 seconds
+[ Mon Apr 14 11:25:09 2025 ] 	Epoch: 1, Batch(0/2) done. Loss: 804.41992188  lr:0.000100
+[ Mon Apr 14 11:25:12 2025 ] 	Mean training loss: 800.9955444336.
+[ Mon Apr 14 11:25:17 2025 ] Dev WER: 171.21% DEV del 00.00% DEV ins 71.21%
+[ Mon Apr 14 11:25:17 2025 ] Test WER: 207.14% Test del 00.00% Test ins 107.14%
+[ Mon Apr 14 11:25:18 2025 ] Save best model
+[ Mon Apr 14 11:25:18 2025 ] Best_dev: 171.21, 00.00, 71.21, Best_test: 207.14, 00.00, 107.14,Epoch : 1
+[ Mon Apr 14 11:25:18 2025 ] Epoch 1 costs 0 mins 13 seconds
+[ Mon Apr 14 11:25:18 2025 ] Training costs 0 hours 0 mins 44 seconds
+[ Mon Apr 14 11:25:24 2025 ] 	Epoch: 2, Batch(0/2) done. Loss: 629.74566650  lr:0.000100
+[ Mon Apr 14 11:25:41 2025 ] 	Mean training loss: 706.3272399902.
+[ Mon Apr 14 11:25:48 2025 ] Dev WER: 151.52% DEV del 00.00% DEV ins 51.52%
+[ Mon Apr 14 11:25:48 2025 ] Test WER: 197.62% Test del 00.00% Test ins 97.62%
+[ Mon Apr 14 11:25:48 2025 ] Save best model
+[ Mon Apr 14 11:25:48 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:25:48 2025 ] Epoch 2 costs 0 mins 30 seconds
+[ Mon Apr 14 11:25:48 2025 ] Training costs 0 hours 1 mins 15 seconds
+[ Mon Apr 14 11:25:53 2025 ] 	Epoch: 3, Batch(0/2) done. Loss: 862.72808838  lr:0.000100
+[ Mon Apr 14 11:25:55 2025 ] 	Mean training loss: 705.6585693359.
+[ Mon Apr 14 11:26:00 2025 ] Dev WER: 165.15% DEV del 00.00% DEV ins 65.15%
+[ Mon Apr 14 11:26:00 2025 ] Test WER: 223.81% Test del 00.00% Test ins 123.81%
+[ Mon Apr 14 11:26:00 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:26:00 2025 ] Epoch 3 costs 0 mins 11 seconds
+[ Mon Apr 14 11:26:00 2025 ] Training costs 0 hours 1 mins 26 seconds
+[ Mon Apr 14 11:26:03 2025 ] 	Epoch: 4, Batch(0/2) done. Loss: 564.05548096  lr:0.000100
+[ Mon Apr 14 11:26:06 2025 ] 	Mean training loss: 715.8796997070.
+[ Mon Apr 14 11:26:12 2025 ] Dev WER: 172.73% DEV del 00.00% DEV ins 72.73%
+[ Mon Apr 14 11:26:12 2025 ] Test WER: 221.43% Test del 00.00% Test ins 121.43%
+[ Mon Apr 14 11:26:12 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:26:12 2025 ] Epoch 4 costs 0 mins 11 seconds
+[ Mon Apr 14 11:26:12 2025 ] Training costs 0 hours 1 mins 38 seconds
+[ Mon Apr 14 11:26:16 2025 ] 	Epoch: 5, Batch(0/2) done. Loss: 725.87371826  lr:0.000100
+[ Mon Apr 14 11:26:20 2025 ] 	Mean training loss: 811.7828674316.
+[ Mon Apr 14 11:26:26 2025 ] Dev WER: 171.21% DEV del 00.00% DEV ins 71.21%
+[ Mon Apr 14 11:26:26 2025 ] Test WER: 223.81% Test del 00.00% Test ins 123.81%
+[ Mon Apr 14 11:26:26 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:26:26 2025 ] Epoch 5 costs 0 mins 13 seconds
+[ Mon Apr 14 11:26:26 2025 ] Training costs 0 hours 1 mins 52 seconds
+[ Mon Apr 14 11:26:30 2025 ] 	Epoch: 6, Batch(0/2) done. Loss: 669.34313965  lr:0.000100
+[ Mon Apr 14 11:27:05 2025 ] 	Mean training loss: 732.6693115234.
+[ Mon Apr 14 11:27:11 2025 ] Dev WER: 171.21% DEV del 00.00% DEV ins 71.21%
+[ Mon Apr 14 11:27:11 2025 ] Test WER: 223.81% Test del 00.00% Test ins 123.81%
+[ Mon Apr 14 11:27:11 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:27:11 2025 ] Epoch 6 costs 0 mins 44 seconds
+[ Mon Apr 14 11:27:11 2025 ] Training costs 0 hours 2 mins 37 seconds
+[ Mon Apr 14 11:27:34 2025 ] 	Epoch: 7, Batch(0/2) done. Loss: 804.91058350  lr:0.000100
+[ Mon Apr 14 11:27:46 2025 ] 	Mean training loss: 666.9248352051.
+[ Mon Apr 14 11:27:53 2025 ] Dev WER: 172.73% DEV del 00.00% DEV ins 72.73%
+[ Mon Apr 14 11:27:53 2025 ] Test WER: 223.81% Test del 00.00% Test ins 123.81%
+[ Mon Apr 14 11:27:53 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:27:53 2025 ] Epoch 7 costs 0 mins 42 seconds
+[ Mon Apr 14 11:27:53 2025 ] Training costs 0 hours 3 mins 19 seconds
+[ Mon Apr 14 11:28:01 2025 ] 	Epoch: 8, Batch(0/2) done. Loss: 689.76702881  lr:0.000100
+[ Mon Apr 14 11:28:42 2025 ] 	Mean training loss: 800.7485656738.
+[ Mon Apr 14 11:28:48 2025 ] Dev WER: 172.73% DEV del 00.00% DEV ins 72.73%
+[ Mon Apr 14 11:28:48 2025 ] Test WER: 223.81% Test del 00.00% Test ins 123.81%
+[ Mon Apr 14 11:28:48 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:28:48 2025 ] Epoch 8 costs 0 mins 54 seconds
+[ Mon Apr 14 11:28:48 2025 ] Training costs 0 hours 4 mins 14 seconds
+[ Mon Apr 14 11:28:53 2025 ] 	Epoch: 9, Batch(0/2) done. Loss: 845.58319092  lr:0.000100
+[ Mon Apr 14 11:28:54 2025 ] 	Mean training loss: 707.8663024902.
+[ Mon Apr 14 11:29:00 2025 ] Dev WER: 172.73% DEV del 00.00% DEV ins 72.73%
+[ Mon Apr 14 11:29:00 2025 ] Test WER: 223.81% Test del 00.00% Test ins 123.81%
+[ Mon Apr 14 11:29:00 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:29:00 2025 ] Epoch 9 costs 0 mins 11 seconds
+[ Mon Apr 14 11:29:00 2025 ] Training costs 0 hours 4 mins 25 seconds
+[ Mon Apr 14 11:29:05 2025 ] 	Epoch: 10, Batch(0/2) done. Loss: 999.43615723  lr:0.000100
+[ Mon Apr 14 11:29:07 2025 ] 	Mean training loss: 795.2145690918.
+[ Mon Apr 14 11:29:13 2025 ] Dev WER: 172.73% DEV del 00.00% DEV ins 72.73%
+[ Mon Apr 14 11:29:13 2025 ] Test WER: 223.81% Test del 00.00% Test ins 123.81%
+[ Mon Apr 14 11:29:13 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:29:13 2025 ] Epoch 10 costs 0 mins 13 seconds
+[ Mon Apr 14 11:29:13 2025 ] Training costs 0 hours 4 mins 39 seconds
+[ Mon Apr 14 11:29:17 2025 ] 	Epoch: 11, Batch(0/2) done. Loss: 711.75964355  lr:0.000100
+[ Mon Apr 14 11:29:19 2025 ] 	Mean training loss: 696.6387634277.
+[ Mon Apr 14 11:29:24 2025 ] Dev WER: 171.21% DEV del 00.00% DEV ins 71.21%
+[ Mon Apr 14 11:29:24 2025 ] Test WER: 223.81% Test del 00.00% Test ins 123.81%
+[ Mon Apr 14 11:29:24 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:29:24 2025 ] Epoch 11 costs 0 mins 11 seconds
+[ Mon Apr 14 11:29:24 2025 ] Training costs 0 hours 4 mins 50 seconds
+[ Mon Apr 14 11:29:35 2025 ] 	Epoch: 12, Batch(0/2) done. Loss: 611.37182617  lr:0.000100
+[ Mon Apr 14 11:29:39 2025 ] 	Mean training loss: 831.1369018555.
+[ Mon Apr 14 11:29:45 2025 ] Dev WER: 174.24% DEV del 00.00% DEV ins 74.24%
+[ Mon Apr 14 11:29:45 2025 ] Test WER: 223.81% Test del 00.00% Test ins 123.81%
+[ Mon Apr 14 11:29:45 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:29:45 2025 ] Epoch 12 costs 0 mins 20 seconds
+[ Mon Apr 14 11:29:45 2025 ] Training costs 0 hours 5 mins 10 seconds
+[ Mon Apr 14 11:29:49 2025 ] 	Epoch: 13, Batch(0/2) done. Loss: 935.28527832  lr:0.000100
+[ Mon Apr 14 11:29:51 2025 ] 	Mean training loss: 858.2790222168.
+[ Mon Apr 14 11:29:57 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:29:57 2025 ] Test WER: 226.19% Test del 00.00% Test ins 126.19%
+[ Mon Apr 14 11:29:57 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:29:57 2025 ] Epoch 13 costs 0 mins 11 seconds
+[ Mon Apr 14 11:29:57 2025 ] Training costs 0 hours 5 mins 22 seconds
+[ Mon Apr 14 11:30:00 2025 ] 	Epoch: 14, Batch(0/2) done. Loss: 689.47290039  lr:0.000100
+[ Mon Apr 14 11:30:02 2025 ] 	Mean training loss: 850.9150695801.
+[ Mon Apr 14 11:30:09 2025 ] Dev WER: 175.76% DEV del 00.00% DEV ins 75.76%
+[ Mon Apr 14 11:30:09 2025 ] Test WER: 238.10% Test del 00.00% Test ins 138.10%
+[ Mon Apr 14 11:30:09 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:30:09 2025 ] Epoch 14 costs 0 mins 11 seconds
+[ Mon Apr 14 11:30:09 2025 ] Training costs 0 hours 5 mins 34 seconds
+[ Mon Apr 14 11:30:14 2025 ] 	Epoch: 15, Batch(0/2) done. Loss: 829.17407227  lr:0.000100
+[ Mon Apr 14 11:30:16 2025 ] 	Mean training loss: 757.7765502930.
+[ Mon Apr 14 11:30:22 2025 ] Dev WER: 175.76% DEV del 00.00% DEV ins 75.76%
+[ Mon Apr 14 11:30:22 2025 ] Test WER: 230.95% Test del 00.00% Test ins 130.95%
+[ Mon Apr 14 11:30:22 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:30:22 2025 ] Epoch 15 costs 0 mins 12 seconds
+[ Mon Apr 14 11:30:22 2025 ] Training costs 0 hours 5 mins 47 seconds
+[ Mon Apr 14 11:30:26 2025 ] 	Epoch: 16, Batch(0/2) done. Loss: 979.75366211  lr:0.000100
+[ Mon Apr 14 11:30:28 2025 ] 	Mean training loss: 756.8040466309.
+[ Mon Apr 14 11:30:33 2025 ] Dev WER: 175.76% DEV del 00.00% DEV ins 75.76%
+[ Mon Apr 14 11:30:33 2025 ] Test WER: 238.10% Test del 00.00% Test ins 138.10%
+[ Mon Apr 14 11:30:33 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:30:33 2025 ] Epoch 16 costs 0 mins 10 seconds
+[ Mon Apr 14 11:30:33 2025 ] Training costs 0 hours 5 mins 58 seconds
+[ Mon Apr 14 11:30:37 2025 ] 	Epoch: 17, Batch(0/2) done. Loss: 763.44683838  lr:0.000100
+[ Mon Apr 14 11:31:09 2025 ] 	Mean training loss: 785.4687194824.
+[ Mon Apr 14 11:31:15 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:31:15 2025 ] Test WER: 240.48% Test del 00.00% Test ins 140.48%
+[ Mon Apr 14 11:31:15 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:31:15 2025 ] Epoch 17 costs 0 mins 42 seconds
+[ Mon Apr 14 11:31:15 2025 ] Training costs 0 hours 6 mins 40 seconds
+[ Mon Apr 14 11:31:20 2025 ] 	Epoch: 18, Batch(0/2) done. Loss: 836.20153809  lr:0.000100
+[ Mon Apr 14 11:31:23 2025 ] 	Mean training loss: 776.6997070312.
+[ Mon Apr 14 11:31:28 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:31:28 2025 ] Test WER: 238.10% Test del 00.00% Test ins 138.10%
+[ Mon Apr 14 11:31:28 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:31:28 2025 ] Epoch 18 costs 0 mins 13 seconds
+[ Mon Apr 14 11:31:28 2025 ] Training costs 0 hours 6 mins 53 seconds
+[ Mon Apr 14 11:31:48 2025 ] 	Epoch: 19, Batch(0/2) done. Loss: 994.66479492  lr:0.000100
+[ Mon Apr 14 11:32:00 2025 ] 	Mean training loss: 774.2149658203.
+[ Mon Apr 14 11:32:05 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:32:05 2025 ] Test WER: 238.10% Test del 00.00% Test ins 138.10%
+[ Mon Apr 14 11:32:05 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:32:05 2025 ] Epoch 19 costs 0 mins 37 seconds
+[ Mon Apr 14 11:32:05 2025 ] Training costs 0 hours 7 mins 30 seconds
+[ Mon Apr 14 11:32:26 2025 ] 	Epoch: 20, Batch(0/2) done. Loss: 941.67089844  lr:0.000020
+[ Mon Apr 14 11:32:41 2025 ] 	Mean training loss: 813.5442504883.
+[ Mon Apr 14 11:32:45 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:32:45 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:32:45 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:32:46 2025 ] Epoch 20 costs 0 mins 40 seconds
+[ Mon Apr 14 11:32:46 2025 ] Training costs 0 hours 8 mins 11 seconds
+[ Mon Apr 14 11:33:23 2025 ] 	Epoch: 21, Batch(0/2) done. Loss: 818.86450195  lr:0.000020
+[ Mon Apr 14 11:33:53 2025 ] 	Mean training loss: 763.9245605469.
+[ Mon Apr 14 11:33:58 2025 ] Dev WER: 175.76% DEV del 00.00% DEV ins 75.76%
+[ Mon Apr 14 11:33:58 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:33:58 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:33:58 2025 ] Epoch 21 costs 1 mins 11 seconds
+[ Mon Apr 14 11:33:58 2025 ] Training costs 0 hours 9 mins 22 seconds
+[ Mon Apr 14 11:34:04 2025 ] 	Epoch: 22, Batch(0/2) done. Loss: 685.12829590  lr:0.000020
+[ Mon Apr 14 11:34:41 2025 ] 	Mean training loss: 811.3172912598.
+[ Mon Apr 14 11:34:46 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 11:34:46 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:34:46 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:34:47 2025 ] Epoch 22 costs 0 mins 48 seconds
+[ Mon Apr 14 11:34:47 2025 ] Training costs 0 hours 10 mins 11 seconds
+[ Mon Apr 14 11:34:50 2025 ] 	Epoch: 23, Batch(0/2) done. Loss: 633.39245605  lr:0.000020
+[ Mon Apr 14 11:34:52 2025 ] 	Mean training loss: 700.7621765137.
+[ Mon Apr 14 11:34:58 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 11:34:58 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 11:34:58 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:34:58 2025 ] Epoch 23 costs 0 mins 11 seconds
+[ Mon Apr 14 11:34:58 2025 ] Training costs 0 hours 10 mins 22 seconds
+[ Mon Apr 14 11:35:02 2025 ] 	Epoch: 24, Batch(0/2) done. Loss: 813.98303223  lr:0.000020
+[ Mon Apr 14 11:35:04 2025 ] 	Mean training loss: 706.9053955078.
+[ Mon Apr 14 11:35:09 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 11:35:09 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:35:09 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:35:09 2025 ] Epoch 24 costs 0 mins 11 seconds
+[ Mon Apr 14 11:35:09 2025 ] Training costs 0 hours 10 mins 34 seconds
+[ Mon Apr 14 11:35:14 2025 ] 	Epoch: 25, Batch(0/2) done. Loss: 720.99530029  lr:0.000020
+[ Mon Apr 14 11:35:46 2025 ] 	Mean training loss: 781.8160095215.
+[ Mon Apr 14 11:35:52 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:35:52 2025 ] Test WER: 240.48% Test del 00.00% Test ins 140.48%
+[ Mon Apr 14 11:35:52 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:35:52 2025 ] Epoch 25 costs 0 mins 42 seconds
+[ Mon Apr 14 11:35:52 2025 ] Training costs 0 hours 11 mins 16 seconds
+[ Mon Apr 14 11:35:56 2025 ] 	Epoch: 26, Batch(0/2) done. Loss: 927.64190674  lr:0.000020
+[ Mon Apr 14 11:35:58 2025 ] 	Mean training loss: 755.3897399902.
+[ Mon Apr 14 11:36:03 2025 ] Dev WER: 183.33% DEV del 00.00% DEV ins 83.33%
+[ Mon Apr 14 11:36:03 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:36:03 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:36:03 2025 ] Epoch 26 costs 0 mins 11 seconds
+[ Mon Apr 14 11:36:03 2025 ] Training costs 0 hours 11 mins 28 seconds
+[ Mon Apr 14 11:36:07 2025 ] 	Epoch: 27, Batch(0/2) done. Loss: 659.99035645  lr:0.000020
+[ Mon Apr 14 11:36:09 2025 ] 	Mean training loss: 755.0237731934.
+[ Mon Apr 14 11:36:15 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:36:15 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:36:15 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:36:15 2025 ] Epoch 27 costs 0 mins 11 seconds
+[ Mon Apr 14 11:36:15 2025 ] Training costs 0 hours 11 mins 39 seconds
+[ Mon Apr 14 11:36:19 2025 ] 	Epoch: 28, Batch(0/2) done. Loss: 756.03851318  lr:0.000020
+[ Mon Apr 14 11:36:56 2025 ] 	Mean training loss: 786.0790405273.
+[ Mon Apr 14 11:37:01 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 11:37:01 2025 ] Test WER: 254.76% Test del 00.00% Test ins 154.76%
+[ Mon Apr 14 11:37:01 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:37:01 2025 ] Epoch 28 costs 0 mins 45 seconds
+[ Mon Apr 14 11:37:01 2025 ] Training costs 0 hours 12 mins 25 seconds
+[ Mon Apr 14 11:37:05 2025 ] 	Epoch: 29, Batch(0/2) done. Loss: 725.64074707  lr:0.000020
+[ Mon Apr 14 11:37:22 2025 ] 	Mean training loss: 817.0568847656.
+[ Mon Apr 14 11:37:29 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:37:29 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:37:29 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:37:29 2025 ] Epoch 29 costs 0 mins 27 seconds
+[ Mon Apr 14 11:37:29 2025 ] Training costs 0 hours 12 mins 53 seconds
+[ Mon Apr 14 11:37:33 2025 ] 	Epoch: 30, Batch(0/2) done. Loss: 677.70965576  lr:0.000004
+[ Mon Apr 14 11:37:49 2025 ] 	Mean training loss: 781.5320434570.
+[ Mon Apr 14 11:37:55 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:37:55 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 11:37:55 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:37:55 2025 ] Epoch 30 costs 0 mins 26 seconds
+[ Mon Apr 14 11:37:55 2025 ] Training costs 0 hours 13 mins 19 seconds
+[ Mon Apr 14 11:38:01 2025 ] 	Epoch: 31, Batch(0/2) done. Loss: 800.14074707  lr:0.000004
+[ Mon Apr 14 11:38:03 2025 ] 	Mean training loss: 775.2526855469.
+[ Mon Apr 14 11:38:08 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:38:08 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:38:08 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:38:08 2025 ] Epoch 31 costs 0 mins 12 seconds
+[ Mon Apr 14 11:38:08 2025 ] Training costs 0 hours 13 mins 32 seconds
+[ Mon Apr 14 11:38:13 2025 ] 	Epoch: 32, Batch(0/2) done. Loss: 896.16162109  lr:0.000004
+[ Mon Apr 14 11:38:15 2025 ] 	Mean training loss: 828.8409423828.
+[ Mon Apr 14 11:38:20 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:38:20 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:38:20 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:38:20 2025 ] Epoch 32 costs 0 mins 11 seconds
+[ Mon Apr 14 11:38:20 2025 ] Training costs 0 hours 13 mins 44 seconds
+[ Mon Apr 14 11:38:24 2025 ] 	Epoch: 33, Batch(0/2) done. Loss: 700.38793945  lr:0.000004
+[ Mon Apr 14 11:38:56 2025 ] 	Mean training loss: 706.7366943359.
+[ Mon Apr 14 11:39:01 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:39:01 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 11:39:01 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:39:01 2025 ] Epoch 33 costs 0 mins 41 seconds
+[ Mon Apr 14 11:39:01 2025 ] Training costs 0 hours 14 mins 25 seconds
+[ Mon Apr 14 11:39:05 2025 ] 	Epoch: 34, Batch(0/2) done. Loss: 702.96423340  lr:0.000004
+[ Mon Apr 14 11:39:37 2025 ] 	Mean training loss: 859.7169494629.
+[ Mon Apr 14 11:39:44 2025 ] Dev WER: 174.24% DEV del 00.00% DEV ins 74.24%
+[ Mon Apr 14 11:39:44 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:39:44 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:39:44 2025 ] Epoch 34 costs 0 mins 42 seconds
+[ Mon Apr 14 11:39:44 2025 ] Training costs 0 hours 15 mins 8 seconds
+[ Mon Apr 14 11:39:48 2025 ] 	Epoch: 35, Batch(0/2) done. Loss: 728.24890137  lr:0.000001
+[ Mon Apr 14 11:39:50 2025 ] 	Mean training loss: 674.2691040039.
+[ Mon Apr 14 11:39:55 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:39:55 2025 ] Test WER: 252.38% Test del 00.00% Test ins 152.38%
+[ Mon Apr 14 11:39:55 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:39:55 2025 ] Epoch 35 costs 0 mins 11 seconds
+[ Mon Apr 14 11:39:55 2025 ] Training costs 0 hours 15 mins 19 seconds
+[ Mon Apr 14 11:39:59 2025 ] 	Epoch: 36, Batch(0/2) done. Loss: 725.86962891  lr:0.000001
+[ Mon Apr 14 11:40:31 2025 ] 	Mean training loss: 743.3435058594.
+[ Mon Apr 14 11:40:36 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:40:36 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:40:36 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:40:36 2025 ] Epoch 36 costs 0 mins 40 seconds
+[ Mon Apr 14 11:40:36 2025 ] Training costs 0 hours 16 mins 0 seconds
+[ Mon Apr 14 11:40:39 2025 ] 	Epoch: 37, Batch(0/2) done. Loss: 602.50653076  lr:0.000001
+[ Mon Apr 14 11:41:14 2025 ] 	Mean training loss: 759.1856689453.
+[ Mon Apr 14 11:41:19 2025 ] Dev WER: 183.33% DEV del 00.00% DEV ins 83.33%
+[ Mon Apr 14 11:41:19 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 11:41:19 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:41:19 2025 ] Epoch 37 costs 0 mins 43 seconds
+[ Mon Apr 14 11:41:19 2025 ] Training costs 0 hours 16 mins 43 seconds
+[ Mon Apr 14 11:41:24 2025 ] 	Epoch: 38, Batch(0/2) done. Loss: 778.03741455  lr:0.000001
+[ Mon Apr 14 11:41:26 2025 ] 	Mean training loss: 683.0943603516.
+[ Mon Apr 14 11:41:31 2025 ] Dev WER: 174.24% DEV del 00.00% DEV ins 74.24%
+[ Mon Apr 14 11:41:31 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:41:31 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:41:31 2025 ] Epoch 38 costs 0 mins 11 seconds
+[ Mon Apr 14 11:41:31 2025 ] Training costs 0 hours 16 mins 55 seconds
+[ Mon Apr 14 11:41:35 2025 ] 	Epoch: 39, Batch(0/2) done. Loss: 689.52478027  lr:0.000001
+[ Mon Apr 14 11:42:10 2025 ] 	Mean training loss: 768.7493591309.
+[ Mon Apr 14 11:42:15 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:42:15 2025 ] Test WER: 238.10% Test del 00.00% Test ins 138.10%
+[ Mon Apr 14 11:42:15 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:42:15 2025 ] Epoch 39 costs 0 mins 43 seconds
+[ Mon Apr 14 11:42:15 2025 ] Training costs 0 hours 17 mins 39 seconds
+[ Mon Apr 14 11:42:36 2025 ] 	Epoch: 40, Batch(0/2) done. Loss: 805.97778320  lr:0.000001
+[ Mon Apr 14 11:42:52 2025 ] 	Mean training loss: 777.3918151855.
+[ Mon Apr 14 11:42:57 2025 ] Dev WER: 175.76% DEV del 00.00% DEV ins 75.76%
+[ Mon Apr 14 11:42:57 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:42:57 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:42:57 2025 ] Epoch 40 costs 0 mins 41 seconds
+[ Mon Apr 14 11:42:57 2025 ] Training costs 0 hours 18 mins 21 seconds
+[ Mon Apr 14 11:43:02 2025 ] 	Epoch: 41, Batch(0/2) done. Loss: 744.41424561  lr:0.000001
+[ Mon Apr 14 11:43:06 2025 ] 	Mean training loss: 782.2222595215.
+[ Mon Apr 14 11:43:11 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:43:11 2025 ] Test WER: 238.10% Test del 00.00% Test ins 138.10%
+[ Mon Apr 14 11:43:11 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:43:11 2025 ] Epoch 41 costs 0 mins 13 seconds
+[ Mon Apr 14 11:43:11 2025 ] Training costs 0 hours 18 mins 35 seconds
+[ Mon Apr 14 11:43:16 2025 ] 	Epoch: 42, Batch(0/2) done. Loss: 783.18878174  lr:0.000001
+[ Mon Apr 14 11:43:18 2025 ] 	Mean training loss: 722.9253234863.
+[ Mon Apr 14 11:43:23 2025 ] Dev WER: 175.76% DEV del 00.00% DEV ins 75.76%
+[ Mon Apr 14 11:43:23 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:43:23 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:43:23 2025 ] Epoch 42 costs 0 mins 11 seconds
+[ Mon Apr 14 11:43:23 2025 ] Training costs 0 hours 18 mins 46 seconds
+[ Mon Apr 14 11:43:27 2025 ] 	Epoch: 43, Batch(0/2) done. Loss: 802.34997559  lr:0.000001
+[ Mon Apr 14 11:43:29 2025 ] 	Mean training loss: 698.5137939453.
+[ Mon Apr 14 11:43:36 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:43:36 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 11:43:36 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:43:36 2025 ] Epoch 43 costs 0 mins 12 seconds
+[ Mon Apr 14 11:43:36 2025 ] Training costs 0 hours 18 mins 59 seconds
+[ Mon Apr 14 11:44:13 2025 ] 	Epoch: 44, Batch(0/2) done. Loss: 878.49230957  lr:0.000001
+[ Mon Apr 14 11:44:43 2025 ] 	Mean training loss: 781.5108337402.
+[ Mon Apr 14 11:44:48 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:44:48 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 11:44:48 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:44:48 2025 ] Epoch 44 costs 1 mins 12 seconds
+[ Mon Apr 14 11:44:48 2025 ] Training costs 0 hours 20 mins 11 seconds
+[ Mon Apr 14 11:44:53 2025 ] 	Epoch: 45, Batch(0/2) done. Loss: 917.03216553  lr:0.000001
+[ Mon Apr 14 11:44:54 2025 ] 	Mean training loss: 746.9412536621.
+[ Mon Apr 14 11:45:00 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:45:00 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:45:00 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:45:00 2025 ] Epoch 45 costs 0 mins 11 seconds
+[ Mon Apr 14 11:45:00 2025 ] Training costs 0 hours 20 mins 23 seconds
+[ Mon Apr 14 11:45:03 2025 ] 	Epoch: 46, Batch(0/2) done. Loss: 619.65612793  lr:0.000001
+[ Mon Apr 14 11:45:39 2025 ] 	Mean training loss: 733.7441101074.
+[ Mon Apr 14 11:45:44 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:45:44 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:45:44 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:45:44 2025 ] Epoch 46 costs 0 mins 44 seconds
+[ Mon Apr 14 11:45:44 2025 ] Training costs 0 hours 21 mins 7 seconds
+[ Mon Apr 14 11:45:50 2025 ] 	Epoch: 47, Batch(0/2) done. Loss: 839.27893066  lr:0.000001
+[ Mon Apr 14 11:45:52 2025 ] 	Mean training loss: 770.5445251465.
+[ Mon Apr 14 11:45:57 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:45:57 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:45:57 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:45:57 2025 ] Epoch 47 costs 0 mins 12 seconds
+[ Mon Apr 14 11:45:57 2025 ] Training costs 0 hours 21 mins 20 seconds
+[ Mon Apr 14 11:46:01 2025 ] 	Epoch: 48, Batch(0/2) done. Loss: 618.53448486  lr:0.000001
+[ Mon Apr 14 11:46:19 2025 ] 	Mean training loss: 692.1976013184.
+[ Mon Apr 14 11:46:26 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:46:26 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 11:46:26 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:46:26 2025 ] Epoch 48 costs 0 mins 28 seconds
+[ Mon Apr 14 11:46:26 2025 ] Training costs 0 hours 21 mins 49 seconds
+[ Mon Apr 14 11:46:46 2025 ] 	Epoch: 49, Batch(0/2) done. Loss: 890.17718506  lr:0.000001
+[ Mon Apr 14 11:47:03 2025 ] 	Mean training loss: 791.0333557129.
+[ Mon Apr 14 11:47:08 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:47:08 2025 ] Test WER: 257.14% Test del 00.00% Test ins 157.14%
+[ Mon Apr 14 11:47:08 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:47:08 2025 ] Epoch 49 costs 0 mins 41 seconds
+[ Mon Apr 14 11:47:08 2025 ] Training costs 0 hours 22 mins 31 seconds
+[ Mon Apr 14 11:47:12 2025 ] 	Epoch: 50, Batch(0/2) done. Loss: 833.26031494  lr:0.000001
+[ Mon Apr 14 11:47:14 2025 ] 	Mean training loss: 768.7175292969.
+[ Mon Apr 14 11:47:19 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:47:19 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 11:47:19 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:47:20 2025 ] Epoch 50 costs 0 mins 11 seconds
+[ Mon Apr 14 11:47:20 2025 ] Training costs 0 hours 22 mins 42 seconds
+[ Mon Apr 14 11:47:23 2025 ] 	Epoch: 51, Batch(0/2) done. Loss: 628.38317871  lr:0.000001
+[ Mon Apr 14 11:47:59 2025 ] 	Mean training loss: 706.7678527832.
+[ Mon Apr 14 11:48:06 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:48:06 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 11:48:06 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:48:06 2025 ] Epoch 51 costs 0 mins 45 seconds
+[ Mon Apr 14 11:48:06 2025 ] Training costs 0 hours 23 mins 28 seconds
+[ Mon Apr 14 11:48:09 2025 ] 	Epoch: 52, Batch(0/2) done. Loss: 611.69354248  lr:0.000001
+[ Mon Apr 14 11:48:11 2025 ] 	Mean training loss: 613.1288452148.
+[ Mon Apr 14 11:48:17 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:48:17 2025 ] Test WER: 235.71% Test del 00.00% Test ins 135.71%
+[ Mon Apr 14 11:48:17 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:48:17 2025 ] Epoch 52 costs 0 mins 10 seconds
+[ Mon Apr 14 11:48:17 2025 ] Training costs 0 hours 23 mins 39 seconds
+[ Mon Apr 14 11:48:21 2025 ] 	Epoch: 53, Batch(0/2) done. Loss: 752.17279053  lr:0.000001
+[ Mon Apr 14 11:48:23 2025 ] 	Mean training loss: 646.0115661621.
+[ Mon Apr 14 11:48:28 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:48:28 2025 ] Test WER: 235.71% Test del 00.00% Test ins 135.71%
+[ Mon Apr 14 11:48:28 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:48:28 2025 ] Epoch 53 costs 0 mins 10 seconds
+[ Mon Apr 14 11:48:28 2025 ] Training costs 0 hours 23 mins 50 seconds
+[ Mon Apr 14 11:48:31 2025 ] 	Epoch: 54, Batch(0/2) done. Loss: 681.90441895  lr:0.000001
+[ Mon Apr 14 11:48:33 2025 ] 	Mean training loss: 666.5250549316.
+[ Mon Apr 14 11:48:40 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:48:40 2025 ] Test WER: 252.38% Test del 00.00% Test ins 152.38%
+[ Mon Apr 14 11:48:40 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:48:40 2025 ] Epoch 54 costs 0 mins 12 seconds
+[ Mon Apr 14 11:48:40 2025 ] Training costs 0 hours 24 mins 2 seconds
+[ Mon Apr 14 11:48:45 2025 ] 	Epoch: 55, Batch(0/2) done. Loss: 927.74060059  lr:0.000001
+[ Mon Apr 14 11:48:46 2025 ] 	Mean training loss: 723.9976806641.
+[ Mon Apr 14 11:48:51 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:48:51 2025 ] Test WER: 238.10% Test del 00.00% Test ins 138.10%
+[ Mon Apr 14 11:48:51 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:48:52 2025 ] Epoch 55 costs 0 mins 11 seconds
+[ Mon Apr 14 11:48:52 2025 ] Training costs 0 hours 24 mins 14 seconds
+[ Mon Apr 14 11:48:55 2025 ] 	Epoch: 56, Batch(0/2) done. Loss: 724.76458740  lr:0.000001
+[ Mon Apr 14 11:48:57 2025 ] 	Mean training loss: 696.1036987305.
+[ Mon Apr 14 11:49:02 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:49:02 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:49:02 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:49:02 2025 ] Epoch 56 costs 0 mins 10 seconds
+[ Mon Apr 14 11:49:02 2025 ] Training costs 0 hours 24 mins 24 seconds
+[ Mon Apr 14 11:49:07 2025 ] 	Epoch: 57, Batch(0/2) done. Loss: 867.77478027  lr:0.000001
+[ Mon Apr 14 11:49:11 2025 ] 	Mean training loss: 761.0968322754.
+[ Mon Apr 14 11:49:16 2025 ] Dev WER: 184.85% DEV del 00.00% DEV ins 84.85%
+[ Mon Apr 14 11:49:16 2025 ] Test WER: 240.48% Test del 00.00% Test ins 140.48%
+[ Mon Apr 14 11:49:16 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:49:17 2025 ] Epoch 57 costs 0 mins 14 seconds
+[ Mon Apr 14 11:49:17 2025 ] Training costs 0 hours 24 mins 38 seconds
+[ Mon Apr 14 11:49:20 2025 ] 	Epoch: 58, Batch(0/2) done. Loss: 743.83557129  lr:0.000001
+[ Mon Apr 14 11:49:56 2025 ] 	Mean training loss: 819.5538940430.
+[ Mon Apr 14 11:50:01 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 11:50:01 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:50:01 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:50:01 2025 ] Epoch 58 costs 0 mins 44 seconds
+[ Mon Apr 14 11:50:01 2025 ] Training costs 0 hours 25 mins 23 seconds
+[ Mon Apr 14 11:50:07 2025 ] 	Epoch: 59, Batch(0/2) done. Loss: 880.83148193  lr:0.000001
+[ Mon Apr 14 11:50:09 2025 ] 	Mean training loss: 755.2729492188.
+[ Mon Apr 14 11:50:15 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 11:50:15 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:50:15 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:50:15 2025 ] Epoch 59 costs 0 mins 13 seconds
+[ Mon Apr 14 11:50:15 2025 ] Training costs 0 hours 25 mins 36 seconds
+[ Mon Apr 14 11:50:20 2025 ] 	Epoch: 60, Batch(0/2) done. Loss: 726.69927979  lr:0.000001
+[ Mon Apr 14 11:50:53 2025 ] 	Mean training loss: 780.3581542969.
+[ Mon Apr 14 11:50:58 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:50:58 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 11:50:58 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:50:58 2025 ] Epoch 60 costs 0 mins 43 seconds
+[ Mon Apr 14 11:50:58 2025 ] Training costs 0 hours 26 mins 20 seconds
+[ Mon Apr 14 11:51:01 2025 ] 	Epoch: 61, Batch(0/2) done. Loss: 610.06665039  lr:0.000001
+[ Mon Apr 14 11:51:03 2025 ] 	Mean training loss: 689.6133117676.
+[ Mon Apr 14 11:51:09 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:51:09 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:51:09 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:51:09 2025 ] Epoch 61 costs 0 mins 10 seconds
+[ Mon Apr 14 11:51:09 2025 ] Training costs 0 hours 26 mins 30 seconds
+[ Mon Apr 14 11:51:12 2025 ] 	Epoch: 62, Batch(0/2) done. Loss: 602.28356934  lr:0.000001
+[ Mon Apr 14 11:51:15 2025 ] 	Mean training loss: 697.8241271973.
+[ Mon Apr 14 11:51:20 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:51:20 2025 ] Test WER: 235.71% Test del 00.00% Test ins 135.71%
+[ Mon Apr 14 11:51:20 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:51:20 2025 ] Epoch 62 costs 0 mins 11 seconds
+[ Mon Apr 14 11:51:20 2025 ] Training costs 0 hours 26 mins 42 seconds
+[ Mon Apr 14 11:51:42 2025 ] 	Epoch: 63, Batch(0/2) done. Loss: 857.95947266  lr:0.000001
+[ Mon Apr 14 11:51:56 2025 ] 	Mean training loss: 750.5911254883.
+[ Mon Apr 14 11:52:02 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:52:02 2025 ] Test WER: 242.86% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:52:02 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:52:02 2025 ] Epoch 63 costs 0 mins 41 seconds
+[ Mon Apr 14 11:52:02 2025 ] Training costs 0 hours 27 mins 23 seconds
+[ Mon Apr 14 11:52:06 2025 ] 	Epoch: 64, Batch(0/2) done. Loss: 948.42755127  lr:0.000001
+[ Mon Apr 14 11:52:09 2025 ] 	Mean training loss: 818.0360412598.
+[ Mon Apr 14 11:52:14 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:52:14 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:52:14 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:52:14 2025 ] Epoch 64 costs 0 mins 11 seconds
+[ Mon Apr 14 11:52:14 2025 ] Training costs 0 hours 27 mins 35 seconds
+[ Mon Apr 14 11:52:35 2025 ] 	Epoch: 65, Batch(0/2) done. Loss: 987.94677734  lr:0.000001
+[ Mon Apr 14 11:52:49 2025 ] 	Mean training loss: 795.8736572266.
+[ Mon Apr 14 11:52:54 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:52:54 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:52:54 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:52:55 2025 ] Epoch 65 costs 0 mins 40 seconds
+[ Mon Apr 14 11:52:55 2025 ] Training costs 0 hours 28 mins 16 seconds
+[ Mon Apr 14 11:52:59 2025 ] 	Epoch: 66, Batch(0/2) done. Loss: 890.51513672  lr:0.000001
+[ Mon Apr 14 11:53:01 2025 ] 	Mean training loss: 796.8906250000.
+[ Mon Apr 14 11:53:08 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:53:08 2025 ] Test WER: 252.38% Test del 00.00% Test ins 152.38%
+[ Mon Apr 14 11:53:08 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:53:08 2025 ] Epoch 66 costs 0 mins 13 seconds
+[ Mon Apr 14 11:53:08 2025 ] Training costs 0 hours 28 mins 29 seconds
+[ Mon Apr 14 11:53:28 2025 ] 	Epoch: 67, Batch(0/2) done. Loss: 827.42370605  lr:0.000001
+[ Mon Apr 14 11:53:42 2025 ] 	Mean training loss: 792.0250854492.
+[ Mon Apr 14 11:53:47 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:53:47 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:53:47 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:53:47 2025 ] Epoch 67 costs 0 mins 39 seconds
+[ Mon Apr 14 11:53:47 2025 ] Training costs 0 hours 29 mins 8 seconds
+[ Mon Apr 14 11:53:51 2025 ] 	Epoch: 68, Batch(0/2) done. Loss: 782.62457275  lr:0.000001
+[ Mon Apr 14 11:53:53 2025 ] 	Mean training loss: 636.5644989014.
+[ Mon Apr 14 11:53:59 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:53:59 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:53:59 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:53:59 2025 ] Epoch 68 costs 0 mins 12 seconds
+[ Mon Apr 14 11:53:59 2025 ] Training costs 0 hours 29 mins 20 seconds
+[ Mon Apr 14 11:54:03 2025 ] 	Epoch: 69, Batch(0/2) done. Loss: 798.02062988  lr:0.000001
+[ Mon Apr 14 11:54:05 2025 ] 	Mean training loss: 697.0216064453.
+[ Mon Apr 14 11:54:10 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:54:10 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 11:54:10 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:54:10 2025 ] Epoch 69 costs 0 mins 10 seconds
+[ Mon Apr 14 11:54:10 2025 ] Training costs 0 hours 29 mins 31 seconds
+[ Mon Apr 14 11:54:13 2025 ] 	Epoch: 70, Batch(0/2) done. Loss: 607.80664062  lr:0.000001
+[ Mon Apr 14 11:54:34 2025 ] 	Mean training loss: 816.8070068359.
+[ Mon Apr 14 11:54:39 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 11:54:39 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 11:54:39 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:54:39 2025 ] Epoch 70 costs 0 mins 28 seconds
+[ Mon Apr 14 11:54:39 2025 ] Training costs 0 hours 30 mins 0 seconds
+[ Mon Apr 14 11:54:43 2025 ] 	Epoch: 71, Batch(0/2) done. Loss: 788.66918945  lr:0.000001
+[ Mon Apr 14 11:54:46 2025 ] 	Mean training loss: 845.0715942383.
+[ Mon Apr 14 11:54:51 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:54:51 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 11:54:51 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:54:51 2025 ] Epoch 71 costs 0 mins 12 seconds
+[ Mon Apr 14 11:54:51 2025 ] Training costs 0 hours 30 mins 12 seconds
+[ Mon Apr 14 11:54:55 2025 ] 	Epoch: 72, Batch(0/2) done. Loss: 565.22497559  lr:0.000001
+[ Mon Apr 14 11:55:15 2025 ] 	Mean training loss: 797.3449707031.
+[ Mon Apr 14 11:55:20 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 11:55:20 2025 ] Test WER: 240.48% Test del 00.00% Test ins 140.48%
+[ Mon Apr 14 11:55:20 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:55:20 2025 ] Epoch 72 costs 0 mins 28 seconds
+[ Mon Apr 14 11:55:20 2025 ] Training costs 0 hours 30 mins 41 seconds
+[ Mon Apr 14 11:55:23 2025 ] 	Epoch: 73, Batch(0/2) done. Loss: 584.64294434  lr:0.000001
+[ Mon Apr 14 11:55:25 2025 ] 	Mean training loss: 763.4659118652.
+[ Mon Apr 14 11:55:31 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:55:31 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:55:31 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:55:31 2025 ] Epoch 73 costs 0 mins 10 seconds
+[ Mon Apr 14 11:55:31 2025 ] Training costs 0 hours 30 mins 51 seconds
+[ Mon Apr 14 11:55:36 2025 ] 	Epoch: 74, Batch(0/2) done. Loss: 638.27331543  lr:0.000001
+[ Mon Apr 14 11:55:38 2025 ] 	Mean training loss: 636.4277343750.
+[ Mon Apr 14 11:55:43 2025 ] Dev WER: 174.24% DEV del 00.00% DEV ins 74.24%
+[ Mon Apr 14 11:55:43 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 11:55:43 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:55:43 2025 ] Epoch 74 costs 0 mins 12 seconds
+[ Mon Apr 14 11:55:43 2025 ] Training costs 0 hours 31 mins 3 seconds
+[ Mon Apr 14 11:55:47 2025 ] 	Epoch: 75, Batch(0/2) done. Loss: 811.74322510  lr:0.000001
+[ Mon Apr 14 11:55:50 2025 ] 	Mean training loss: 717.9812011719.
+[ Mon Apr 14 11:55:55 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 11:55:55 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:55:55 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:55:55 2025 ] Epoch 75 costs 0 mins 11 seconds
+[ Mon Apr 14 11:55:55 2025 ] Training costs 0 hours 31 mins 15 seconds
+[ Mon Apr 14 11:56:00 2025 ] 	Epoch: 76, Batch(0/2) done. Loss: 936.32525635  lr:0.000001
+[ Mon Apr 14 11:56:01 2025 ] 	Mean training loss: 756.0140075684.
+[ Mon Apr 14 11:56:06 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:56:06 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 11:56:06 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:56:06 2025 ] Epoch 76 costs 0 mins 11 seconds
+[ Mon Apr 14 11:56:06 2025 ] Training costs 0 hours 31 mins 27 seconds
+[ Mon Apr 14 11:56:12 2025 ] 	Epoch: 77, Batch(0/2) done. Loss: 720.30157471  lr:0.000001
+[ Mon Apr 14 11:56:44 2025 ] 	Mean training loss: 744.1297607422.
+[ Mon Apr 14 11:56:49 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:56:49 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 11:56:49 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:56:50 2025 ] Epoch 77 costs 0 mins 42 seconds
+[ Mon Apr 14 11:56:50 2025 ] Training costs 0 hours 32 mins 10 seconds
+[ Mon Apr 14 11:56:54 2025 ] 	Epoch: 78, Batch(0/2) done. Loss: 731.56597900  lr:0.000001
+[ Mon Apr 14 11:56:56 2025 ] 	Mean training loss: 682.5437316895.
+[ Mon Apr 14 11:57:01 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 11:57:01 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 11:57:01 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:57:01 2025 ] Epoch 78 costs 0 mins 11 seconds
+[ Mon Apr 14 11:57:01 2025 ] Training costs 0 hours 32 mins 21 seconds
+[ Mon Apr 14 11:57:06 2025 ] 	Epoch: 79, Batch(0/2) done. Loss: 1104.03393555  lr:0.000001
+[ Mon Apr 14 11:57:08 2025 ] 	Mean training loss: 881.3173217773.
+[ Mon Apr 14 11:57:13 2025 ] Dev WER: 175.76% DEV del 00.00% DEV ins 75.76%
+[ Mon Apr 14 11:57:13 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 11:57:13 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:57:13 2025 ] Epoch 79 costs 0 mins 11 seconds
+[ Mon Apr 14 11:57:13 2025 ] Training costs 0 hours 32 mins 33 seconds
+[ Mon Apr 14 11:57:17 2025 ] 	Epoch: 80, Batch(0/2) done. Loss: 697.86608887  lr:0.000001
+[ Mon Apr 14 11:57:53 2025 ] 	Mean training loss: 837.8390197754.
+[ Mon Apr 14 11:57:58 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 11:57:58 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 11:57:58 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:57:59 2025 ] Epoch 80 costs 0 mins 45 seconds
+[ Mon Apr 14 11:57:59 2025 ] Training costs 0 hours 33 mins 19 seconds
+[ Mon Apr 14 11:58:02 2025 ] 	Epoch: 81, Batch(0/2) done. Loss: 617.01318359  lr:0.000001
+[ Mon Apr 14 11:58:37 2025 ] 	Mean training loss: 742.8302307129.
+[ Mon Apr 14 11:58:42 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 11:58:42 2025 ] Test WER: 238.10% Test del 00.00% Test ins 138.10%
+[ Mon Apr 14 11:58:42 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:58:42 2025 ] Epoch 81 costs 0 mins 43 seconds
+[ Mon Apr 14 11:58:42 2025 ] Training costs 0 hours 34 mins 2 seconds
+[ Mon Apr 14 11:59:02 2025 ] 	Epoch: 82, Batch(0/2) done. Loss: 924.27807617  lr:0.000001
+[ Mon Apr 14 11:59:17 2025 ] 	Mean training loss: 766.7815551758.
+[ Mon Apr 14 11:59:22 2025 ] Dev WER: 174.24% DEV del 00.00% DEV ins 74.24%
+[ Mon Apr 14 11:59:22 2025 ] Test WER: 254.76% Test del 00.00% Test ins 154.76%
+[ Mon Apr 14 11:59:22 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:59:22 2025 ] Epoch 82 costs 0 mins 39 seconds
+[ Mon Apr 14 11:59:22 2025 ] Training costs 0 hours 34 mins 42 seconds
+[ Mon Apr 14 11:59:27 2025 ] 	Epoch: 83, Batch(0/2) done. Loss: 695.89807129  lr:0.000001
+[ Mon Apr 14 11:59:30 2025 ] 	Mean training loss: 620.5912170410.
+[ Mon Apr 14 11:59:35 2025 ] Dev WER: 172.73% DEV del 00.00% DEV ins 72.73%
+[ Mon Apr 14 11:59:35 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 11:59:35 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 11:59:35 2025 ] Epoch 83 costs 0 mins 12 seconds
+[ Mon Apr 14 11:59:35 2025 ] Training costs 0 hours 34 mins 54 seconds
+[ Mon Apr 14 11:59:39 2025 ] 	Epoch: 84, Batch(0/2) done. Loss: 683.27966309  lr:0.000001
+[ Mon Apr 14 12:00:11 2025 ] 	Mean training loss: 723.0409851074.
+[ Mon Apr 14 12:00:16 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 12:00:16 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 12:00:16 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:00:16 2025 ] Epoch 84 costs 0 mins 41 seconds
+[ Mon Apr 14 12:00:16 2025 ] Training costs 0 hours 35 mins 36 seconds
+[ Mon Apr 14 12:00:20 2025 ] 	Epoch: 85, Batch(0/2) done. Loss: 726.89752197  lr:0.000001
+[ Mon Apr 14 12:00:38 2025 ] 	Mean training loss: 750.0683288574.
+[ Mon Apr 14 12:00:44 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 12:00:44 2025 ] Test WER: 235.71% Test del 00.00% Test ins 135.71%
+[ Mon Apr 14 12:00:44 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:00:44 2025 ] Epoch 85 costs 0 mins 27 seconds
+[ Mon Apr 14 12:00:44 2025 ] Training costs 0 hours 36 mins 3 seconds
+[ Mon Apr 14 12:01:02 2025 ] 	Epoch: 86, Batch(0/2) done. Loss: 896.74176025  lr:0.000001
+[ Mon Apr 14 12:01:16 2025 ] 	Mean training loss: 792.6625061035.
+[ Mon Apr 14 12:01:21 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 12:01:21 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 12:01:21 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:01:21 2025 ] Epoch 86 costs 0 mins 37 seconds
+[ Mon Apr 14 12:01:21 2025 ] Training costs 0 hours 36 mins 41 seconds
+[ Mon Apr 14 12:01:25 2025 ] 	Epoch: 87, Batch(0/2) done. Loss: 851.81201172  lr:0.000001
+[ Mon Apr 14 12:01:27 2025 ] 	Mean training loss: 680.3961486816.
+[ Mon Apr 14 12:01:32 2025 ] Dev WER: 183.33% DEV del 00.00% DEV ins 83.33%
+[ Mon Apr 14 12:01:32 2025 ] Test WER: 254.76% Test del 00.00% Test ins 154.76%
+[ Mon Apr 14 12:01:32 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:01:32 2025 ] Epoch 87 costs 0 mins 10 seconds
+[ Mon Apr 14 12:01:32 2025 ] Training costs 0 hours 36 mins 51 seconds
+[ Mon Apr 14 12:01:36 2025 ] 	Epoch: 88, Batch(0/2) done. Loss: 796.52911377  lr:0.000001
+[ Mon Apr 14 12:01:38 2025 ] 	Mean training loss: 695.4786682129.
+[ Mon Apr 14 12:01:45 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 12:01:45 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 12:01:45 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:01:45 2025 ] Epoch 88 costs 0 mins 12 seconds
+[ Mon Apr 14 12:01:45 2025 ] Training costs 0 hours 37 mins 4 seconds
+[ Mon Apr 14 12:01:49 2025 ] 	Epoch: 89, Batch(0/2) done. Loss: 681.99951172  lr:0.000001
+[ Mon Apr 14 12:02:05 2025 ] 	Mean training loss: 758.8305969238.
+[ Mon Apr 14 12:02:11 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 12:02:11 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 12:02:11 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:02:11 2025 ] Epoch 89 costs 0 mins 26 seconds
+[ Mon Apr 14 12:02:11 2025 ] Training costs 0 hours 37 mins 31 seconds
+[ Mon Apr 14 12:02:15 2025 ] 	Epoch: 90, Batch(0/2) done. Loss: 649.92492676  lr:0.000001
+[ Mon Apr 14 12:02:18 2025 ] 	Mean training loss: 625.3635864258.
+[ Mon Apr 14 12:02:23 2025 ] Dev WER: 178.79% DEV del 00.00% DEV ins 78.79%
+[ Mon Apr 14 12:02:23 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 12:02:23 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:02:24 2025 ] Epoch 90 costs 0 mins 12 seconds
+[ Mon Apr 14 12:02:24 2025 ] Training costs 0 hours 37 mins 43 seconds
+[ Mon Apr 14 12:02:28 2025 ] 	Epoch: 91, Batch(0/2) done. Loss: 921.92364502  lr:0.000001
+[ Mon Apr 14 12:02:30 2025 ] 	Mean training loss: 817.2493591309.
+[ Mon Apr 14 12:02:36 2025 ] Dev WER: 181.82% DEV del 00.00% DEV ins 81.82%
+[ Mon Apr 14 12:02:36 2025 ] Test WER: 250.00% Test del 00.00% Test ins 150.00%
+[ Mon Apr 14 12:02:36 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:02:36 2025 ] Epoch 91 costs 0 mins 11 seconds
+[ Mon Apr 14 12:02:36 2025 ] Training costs 0 hours 37 mins 55 seconds
+[ Mon Apr 14 12:02:38 2025 ] 	Epoch: 92, Batch(0/2) done. Loss: 599.86981201  lr:0.000001
+[ Mon Apr 14 12:02:41 2025 ] 	Mean training loss: 742.4429931641.
+[ Mon Apr 14 12:02:46 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 12:02:46 2025 ] Test WER: 240.48% Test del 00.00% Test ins 140.48%
+[ Mon Apr 14 12:02:46 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:02:46 2025 ] Epoch 92 costs 0 mins 10 seconds
+[ Mon Apr 14 12:02:46 2025 ] Training costs 0 hours 38 mins 5 seconds
+[ Mon Apr 14 12:02:51 2025 ] 	Epoch: 93, Batch(0/2) done. Loss: 562.45953369  lr:0.000001
+[ Mon Apr 14 12:02:53 2025 ] 	Mean training loss: 748.1300048828.
+[ Mon Apr 14 12:02:59 2025 ] Dev WER: 180.30% DEV del 00.00% DEV ins 80.30%
+[ Mon Apr 14 12:02:59 2025 ] Test WER: 242.86% Test del 00.00% Test ins 142.86%
+[ Mon Apr 14 12:02:59 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:02:59 2025 ] Epoch 93 costs 0 mins 12 seconds
+[ Mon Apr 14 12:02:59 2025 ] Training costs 0 hours 38 mins 18 seconds
+[ Mon Apr 14 12:03:03 2025 ] 	Epoch: 94, Batch(0/2) done. Loss: 965.98687744  lr:0.000001
+[ Mon Apr 14 12:03:05 2025 ] 	Mean training loss: 761.4275207520.
+[ Mon Apr 14 12:03:10 2025 ] Dev WER: 172.73% DEV del 00.00% DEV ins 72.73%
+[ Mon Apr 14 12:03:10 2025 ] Test WER: 245.24% Test del 00.00% Test ins 145.24%
+[ Mon Apr 14 12:03:10 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:03:10 2025 ] Epoch 94 costs 0 mins 10 seconds
+[ Mon Apr 14 12:03:10 2025 ] Training costs 0 hours 38 mins 29 seconds
+[ Mon Apr 14 12:03:14 2025 ] 	Epoch: 95, Batch(0/2) done. Loss: 826.83258057  lr:0.000001
+[ Mon Apr 14 12:03:34 2025 ] 	Mean training loss: 799.9773864746.
+[ Mon Apr 14 12:03:39 2025 ] Dev WER: 177.27% DEV del 00.00% DEV ins 77.27%
+[ Mon Apr 14 12:03:39 2025 ] Test WER: 247.62% Test del 00.00% Test ins 147.62%
+[ Mon Apr 14 12:03:39 2025 ] Best_dev: 151.52, 00.00, 51.52, Best_test: 197.62, 00.00, 97.62,Epoch : 2
+[ Mon Apr 14 12:03:39 2025 ] Epoch 95 costs 0 mins 29 seconds
+[ Mon Apr 14 12:03:39 2025 ] Training costs 0 hours 38 mins 58 seconds
+[ Mon Apr 14 12:06:13 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
+
+[ Mon Apr 14 12:06:17 2025 ] 	Epoch: 0, Batch(0/2835) done. Loss: 461.13375854  lr:0.000100
+[ Mon Apr 14 14:07:07 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 4, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
+
+[ Mon Apr 14 14:07:37 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 3, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
+
+[ Mon Apr 14 14:08:20 2025 ] 	Epoch: 0, Batch(0/1890) done. Loss: 568.11334229  lr:0.000100
+[ Mon Apr 14 14:24:23 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': 0, 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
+
+[ Mon Apr 14 14:24:37 2025 ] 	Epoch: 0, Batch(0/2835) done. Loss: 461.12338257  lr:0.000100
+[ Mon Apr 14 14:25:24 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '0', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
+
+[ Mon Apr 14 14:25:29 2025 ] 	Epoch: 0, Batch(0/2835) done. Loss: 461.12454224  lr:0.000100
+[ Mon Apr 14 14:25:48 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': '1', 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 1, 'local_rank': 0, 'dist_url': 'env://'}
+
+[ Mon Apr 14 14:25:52 2025 ] 	Epoch: 0, Batch(0/2835) done. Loss: 461.13232422  lr:0.000100
+[ Mon Apr 14 14:43:03 2025 ] Parameters:
+{'work_dir': './work_dirt/', 'config': './configs/baseline.yaml', 'random_fix': True, 'device': 0, 'phase': 'train', 'save_interval': 10, 'random_seed': 0, 'eval_interval': 1, 'print_log': True, 'log_interval': 10000, 'evaluate_tool': 'python', 'feeder': 'dataset.dataloader_video.BaseFeeder', 'dataset': 'phoenix2014', 'dataset_info': {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}, 'num_worker': 3, 'feeder_args': {'mode': 'test', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224, 'prefix': '/phoenix2014-release/phoenix-2014-multisigner', 'transform_mode': False}, 'model': 'slr_network.SLRModel', 'model_args': {'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, 'load_weights': False, 'load_checkpoints': False, 'decode_mode': 'beam', 'ignore_weights': [], 'batch_size': 2, 'test_batch_size': 1, 'loss_weights': {'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0, 'LengthPenalty': 0.5}, 'optimizer_args': {'optimizer': 'Adam', 'learning_rate': {}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, 'num_epoch': 80, 'world_size': 2, 'local_rank': 0, 'dist_url': 'env://', 'rank': 0, 'gpu': 0, 'dist_backend': 'nccl'}
+
+[ Mon Apr 14 14:43:06 2025 ] 	Epoch: 0, Batch(0/2835) done. Loss: 461.11581421  lr:0.000100

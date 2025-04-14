@@ -43,7 +43,7 @@ We make some imporvments of our code, and provide newest checkpoionts and better
 
 
 ​To evaluate the pretrained model, choose the dataset from phoenix2014/phoenix2014-T/CSL/CSL-Daily in line 3 in ./config/baseline.yaml first, and run the command below：   
-`python main.py --device your_device --load-weights /home/jhy/SignGraph/_best_model.pt --phase test`
+`python main.py --device 1 --load-weights /home/jhy/SignGraph/phoenix_base_best_model.pt --phase test`
 
 ### Training
 
@@ -53,6 +53,8 @@ The priorities of configuration files are: command line > config file > default 
 
 Note that you can choose the target dataset from phoenix2014/phoenix2014-T/CSL/CSL-Daily in line 3 in ./config/baseline.yaml.
  
+ ### infer
+ ` python main.py --device cuda --load-weights /home/jhy/SignGraph/phoenix_base_best_model.pt --phase infer`
 ### Thanks
 
 This repo is based on [VAC (ICCV 2021)](https://openaccess.thecvf.com/content/ICCV2021/html/Min_Visual_Alignment_Constraint_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html), [VIT (NIPS 2022)](https://arxiv.org/abs/2206.00272) and [RTG-Net (ACM MM2023)](https://dl.acm.org/doi/10.1145/3581783.3611820)！

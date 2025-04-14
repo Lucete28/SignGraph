@@ -25,6 +25,19 @@ from utils.decode import analyze_frame_lengths
 class Processor():
     def __init__(self, arg):
         self.arg = arg
+
+        # ✅ 분산 학습 여부에 따라 초기화
+        if 'RANK' in os.environ and 'WORLD_SIZE' in os.environ:
+            init_distributed_mode(self.arg)
+            print(f"[RANK {self.arg.rank}] Using CUDA device {torch.cuda.current_device()} ({torch.cuda.get_device_name(torch.cuda.current_device())})")
+        else:
+            print("[Single GPU] Using", torch.cuda.get_device_name(torch.cuda.current_device()))
+
+
+        # ✅ 2. rank 확인 로그 출력
+        print(f"[RANK {self.arg.rank}] Using CUDA device {torch.cuda.current_device()} ({torch.cuda.get_device_name(torch.cuda.current_device())})")
+
+        # ✅ 3. 작업 디렉토리 생성 및 파일 백업
         if not os.path.exists(self.arg.work_dir):
             os.makedirs(self.arg.work_dir)
         shutil.copy2(__file__, self.arg.work_dir)
@@ -32,22 +45,104 @@ class Processor():
         shutil.copy2('./modules/tconv.py', self.arg.work_dir)
         shutil.copy2('./modules/resnet.py', self.arg.work_dir)
         shutil.copy2('./modules/gcn_lib/temgraph.py', self.arg.work_dir)
+
+        # ✅ 4. 기본 설정들
         torch.backends.cudnn.benchmark = True
-        if type(self.arg.device) is not int:
-            init_distributed_mode(self.arg)
+
         self.recoder = utils.Recorder(self.arg.work_dir, self.arg.print_log, self.arg.log_interval)
         self.save_arg()
+
         if self.arg.random_fix:
             self.rng = utils.RandomState(seed=self.arg.random_seed)
+
         self.device = utils.GpuDataParallel()
-
-
-        self.recoder = utils.Recorder(self.arg.work_dir, self.arg.print_log, self.arg.log_interval)
         self.dataset = {}
         self.data_loader = {}
         self.gloss_dict = np.load(self.arg.dataset_info['dict_path'], allow_pickle=True).item()
         self.arg.model_args['num_classes'] = len(self.gloss_dict) + 1
+
         self.model, self.optimizer = self.loading()
+
+
+    def inference_one(self, folder_path, start=0, end=None):
+        """
+        folder_path: 프레임이 저장된 단일 영상 폴더 경로
+        """
+        print(f"[INFER] Inference from folder: {folder_path}")
+        assert os.path.exists(folder_path), f"❌ 폴더가 존재하지 않음: {folder_path}"
+        
+        # 프레임 목록 가져오기
+        img_list = sorted(glob.glob(os.path.join(folder_path, "*.png")))
+        if end is None:
+            end = len(img_list)
+
+        img_list = img_list[start:end] 
+        assert len(img_list) > 0, f"❌ 프레임이 없음: {folder_path}"
+        
+        # 프레임 읽기
+        video = [
+            cv2.cvtColor(cv2.resize(cv2.imread(p), (256, 256)), cv2.COLOR_BGR2RGB)
+            for p in img_list
+        ]
+        
+        # dummy label
+        dummy_label = []
+
+        # transform 파이프라인 가져오기
+        feeder_args = self.arg.feeder_args.copy()
+        transform_pipeline = self.feeder(
+            gloss_dict=self.gloss_dict,
+            kernel_size=self.kernel_sizes,
+            dataset=self.arg.dataset,
+            **{
+                **feeder_args,
+                "prefix": "",           # 사용되지 않음
+                "mode": "test",
+                "transform_mode": False,
+            }
+        ).transform()
+
+        video_tensor, _ = transform_pipeline(video, dummy_label, None)
+        video_tensor = video_tensor.float() / 127.5 - 1  # normalize
+
+        # [T, C, H, W] → [1, T, C, H, W]
+        video_tensor = video_tensor.unsqueeze(0).to(self.device.output_device)
+        video_length = torch.LongTensor([video_tensor.size(1)]).to(self.device.output_device)
+
+        self.model.eval()
+        with torch.no_grad():
+            output = self.model(video_tensor, video_length)
+            # print(f"[DEBUG] Model output type: {type(output)}")
+            # print(f"[DEBUG] Model output keys (if dict): {list(output.keys()) if isinstance(output, dict) else 'Not a dict'}")
+            seq_logit = output["sequence_logits"]
+            conv_logit = output["conv_logits"]
+            # logit = logit.permute(1, 0, 2)  # (T, B, C) → (B, T, C)
+
+
+            print("[INFER] 추론 완료")
+
+            # 디코더 불러오기
+            from utils.decode import Decode
+            decoder = Decode(
+                gloss_dict=self.gloss_dict,
+                num_classes=self.arg.model_args["num_classes"],
+                search_mode="max"  # 또는 "beam" → 선택 가능
+            )
+
+            # permute for batch-first
+            if seq_logit.shape[1] == 1:
+                seq_logit = seq_logit.permute(1, 0, 2)
+            if conv_logit.shape[1] == 1:
+                conv_logit = conv_logit.permute(1, 0, 2)
+
+            seq_result = decoder.decode(seq_logit, video_length)
+            conv_result = decoder.decode(conv_logit, video_length)
+
+            print("[LSTM 기반 결과]", " ".join(g for g, _ in seq_result[0]))
+            print("[CNN 기반 결과]", " ".join(g for g, _ in conv_result[0]))
+
+
+
 
 
 
@@ -85,7 +180,7 @@ class Processor():
                         best_dev = dev_wer
                         best_tes = test_wer
                         best_epoch = epoch
-                        model_path = "{}_best_model.pt".format(self.arg.work_dir)
+                        model_path = "phoenix_base_best_model.pt".format(self.arg.work_dir)
                         self.save_model(epoch, model_path)
                         self.recoder.print_log('Save best model')
                     self.recoder.print_log('Best_dev: {:05.2f}, {:05.2f}, {:05.2f}, '
@@ -123,7 +218,7 @@ class Processor():
 
             self.recoder.print_log('Evaluation Done.\n')
 
-            # ✅ 프레임 길이 분석 추가 (기존 코드 변경 없이 추가만!)
+            # ✅ 프레임 길이 분석 추가 (기존 코드 변경 없이 기능적 추가만!)
             analyze_frame_lengths()
 
         elif self.arg.phase == "features":
@@ -132,6 +227,12 @@ class Processor():
                     self.data_loader[mode + "_eval" if mode == "train" else mode],
                     self.model, self.device, mode, self.arg.work_dir, self.recoder
                 )
+
+        elif args.phase == "infer":
+            processor.inference_one("/home/jhy/SignGraph/phoenix2014-release/phoenix-2014-multisigner/features/fullFrame-210x260px/train/01April_2010_Thursday_heute_default-2/1"\
+                                    ,start=16,end=67)
+                                    
+
 
 
 
@@ -157,9 +258,6 @@ class Processor():
 
     def loading(self):
         self.device.set_device(self.arg.device)
-
-
-
         print("Loading model")
         model_class = import_class(self.arg.model)
         model = model_class(
@@ -187,6 +285,10 @@ class Processor():
             print("using dataparalleling...")
             model = nn.SyncBatchNorm.convert_sync_batchnorm(model.to(self.arg.local_rank))
             model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[self.arg.local_rank])
+        # if len(self.device.gpu_list) > 1:
+        #     print("✅ using DataParallel...")
+        #     model = nn.DataParallel(model, device_ids=self.device.gpu_list)
+        # return model
         else:
             model.cuda()
         # model.cuda()
@@ -265,11 +367,13 @@ class Processor():
     def build_dataloader(self, dataset, mode, train_flag):
         if len(self.device.gpu_list) > 1:
             if train_flag:
-                sampler = torch.utils.data.distributed.DistributedSampler(dataset, shuffle=train_flag)
-            else: # test flag
+                sampler = torch.utils.data.distributed.DistributedSampler(dataset, shuffle=True)
+            else:
                 sampler = torch.utils.data.SequentialSampler(dataset)
+
             batch_size = self.arg.batch_size if mode == "train" else self.arg.test_batch_size
-            loader = torch.utils.data.DataLoader(
+
+            return torch.utils.data.DataLoader(
                 dataset,
                 sampler=sampler,
                 batch_size=batch_size,
@@ -278,18 +382,18 @@ class Processor():
                 pin_memory=False,
                 worker_init_fn=self.init_fn,
             )
-            return loader
         else:
             return torch.utils.data.DataLoader(
                 dataset,
-                batch_size= self.arg.batch_size if mode == "train" else self.arg.test_batch_size,
+                batch_size=self.arg.batch_size if mode == "train" else self.arg.test_batch_size,
                 shuffle=train_flag,
                 drop_last=train_flag,
-                num_workers=self.arg.num_worker,  # if train_flag else 0
+                num_workers=self.arg.num_worker,
                 collate_fn=self.feeder.collate_fn,
                 pin_memory=False,
                 worker_init_fn=self.init_fn,
             )
+
 
 
 def import_class(name):
@@ -315,10 +419,10 @@ if __name__ == '__main__':
                 assert (k in key)
         sparser.set_defaults(**default_arg)
     args = sparser.parse_args()
-    print(args) # Namespace(work_dir='./work_dirt/', config='./configs/baseline.yaml', random_fix=True, device='cuda', phase='test', save_interval=10, random_seed=0, eval_interval=1, print_log=True, log_interval=10000, evaluate_tool='python', feeder='dataset.dataloader_video.BaseFeeder', dataset='phoenix2014', dataset_info={}, num_worker=3, feeder_args={'mode': 'train', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224}, model='slr_network.SLRModel', model_args={'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, load_weights='/home/jhy/SignGraph/_best_model.pt', load_checkpoints=False, decode_mode='beam', ignore_weights=[], batch_size=1, test_batch_size=1, loss_weights={'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0}, optimizer_args={'optimizer': 'Adam', 'learning_rate': {'base_lr': 0.0001}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, num_epoch=80, world_size=1, local_rank=0, dist_url='env://')
+    # print(args) # Namespace(work_dir='./work_dirt/', config='./configs/baseline.yaml', random_fix=True, device='cuda', phase='test', save_interval=10, random_seed=0, eval_interval=1, print_log=True, log_interval=10000, evaluate_tool='python', feeder='dataset.dataloader_video.BaseFeeder', dataset='phoenix2014', dataset_info={}, num_worker=3, feeder_args={'mode': 'train', 'datatype': 'video', 'num_gloss': -1, 'drop_ratio': 1.0, 'frame_interval': 1, 'image_scale': 1.0, 'input_size': 224}, model='slr_network.SLRModel', model_args={'num_classes': 1296, 'c2d_type': 'resnet18', 'conv_type': 2, 'use_bn': 1, 'share_classifier': True, 'weight_norm': True}, load_weights='/home/jhy/SignGraph/_best_model.pt', load_checkpoints=False, decode_mode='beam', ignore_weights=[], batch_size=1, test_batch_size=1, loss_weights={'SeqCTC': 1.0, 'ConvCTC': 1.0, 'Dist': 25.0}, optimizer_args={'optimizer': 'Adam', 'learning_rate': {'base_lr': 0.0001}, 'step': [20, 30, 35], 'learning_ratio': 1, 'scheduler': 'ScheaL', 'weight_decay': 0.0001, 'start_epoch': 0, 'num_epoch': 101, 'nesterov': False}, num_epoch=80, world_size=1, local_rank=0, dist_url='env://')
     with open(f"./configs/{args.dataset}.yaml", 'r') as f:
         args.dataset_info = yaml.load(f, Loader=yaml.FullLoader)
-        print(args.dataset_info) # {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}
+        # print(args.dataset_info) # {'dataset_root': '/phoenix2014-release/phoenix-2014-multisigner', 'dict_path': './preprocess/phoenix2014/gloss_dict.npy', 'evaluation_dir': './evaluation/slr_eval645', 'evaluation_prefix': 'phoenix2014-groundtruth'}
     processor = Processor(args)
     # utils.pack_code("./", args.work_dir)
     processor.start()

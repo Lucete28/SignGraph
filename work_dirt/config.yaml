@@ -1,4 +1,4 @@
-batch_size: 1
+batch_size: 2
 config: ./configs/baseline.yaml
 dataset: phoenix2014
 dataset_info:
@@ -7,7 +7,8 @@ dataset_info:
   evaluation_dir: ./evaluation/slr_eval645
   evaluation_prefix: phoenix2014-groundtruth
 decode_mode: beam
-device: cuda
+device: 1
+dist_backend: nccl
 dist_url: env://
 eval_interval: 1
 evaluate_tool: python
@@ -20,14 +21,16 @@ feeder_args:
   input_size: 224
   mode: train
   num_gloss: -1
+gpu: 1
 ignore_weights: []
 load_checkpoints: false
-load_weights: /home/jhy/SignGraph/_best_model.pt
+load_weights: false
 local_rank: 0
 log_interval: 10000
 loss_weights:
   ConvCTC: 1.0
   Dist: 25.0
+  LengthPenalty: 0.5
   SeqCTC: 1.0
 model: slr_network.SLRModel
 model_args:
@@ -53,11 +56,12 @@ optimizer_args:
   - 30
   - 35
   weight_decay: 0.0001
-phase: test
+phase: train
 print_log: true
 random_fix: true
 random_seed: 0
+rank: 1
 save_interval: 10
 test_batch_size: 1
 work_dir: ./work_dirt/
-world_size: 1
+world_size: 2

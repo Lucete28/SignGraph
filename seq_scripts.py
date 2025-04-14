@@ -76,7 +76,8 @@ def seq_eval(cfg, loader, model, device, mode, epoch, work_dir, recoder, evaluat
         info = [d['fileid'] for d in data[-1]]
         gloss = [d['label'] for d in data[-1]]
         with torch.no_grad():
-            ret_dict = model(vid, vid_lgt, label=label, label_lgt=label_lgt)
+            ret_dict = model(vid, vid_lgt, label=label, label_lgt=label_lgt, sample_ids=info)
+
             for inf, conv_sents, recognized_sents, gl in zip(info, ret_dict['conv_sents'], ret_dict['recognized_sents'], gloss):
                 results[inf]['conv_sents'] = conv_sents
                 results[inf]['recognized_sents'] = recognized_sents
@@ -160,13 +161,13 @@ def seq_eval(cfg, loader, model, device, mode, epoch, work_dir, recoder, evaluat
     print(f"- Conv 방식 평균 WER: {avg_conv_wer:.2f}%")
     print(f"- LSTM 방식 평균 WER: {avg_lstm_wer:.2f}%")
 
-    print("\n📢 WER 상위 5개 샘플 (Conv vs LSTM):\n")
-    for sample in top5:
-        print(f"[{sample['file_id']}] WER (Conv: {sample['conv_wer']:.4f}, LSTM: {sample['lstm_wer']:.4f})")
-        print(f"GT   : {sample['gt']}")
-        print(f"Conv : {sample['conv_pred']}")
-        print(f"LSTM : {sample['lstm_pred']}")
-        print("-" * 60)
+    # print("\n📢 WER 상위 5개 샘플 (Conv vs LSTM):\n")
+    # for sample in top5:
+    #     print(f"[{sample['file_id']}] WER (Conv: {sample['conv_wer']:.4f}, LSTM: {sample['lstm_wer']:.4f})")
+    #     print(f"GT   : {sample['gt']}")
+    #     print(f"Conv : {sample['conv_pred']}")
+    #     print(f"LSTM : {sample['lstm_pred']}")
+    #     print("-" * 60)
 
 
 
